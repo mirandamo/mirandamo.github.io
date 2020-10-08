@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Feed Me | Miranda Mo</title>
+    <link rel="icon" href="../img/misc/favicon.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/67f90579cc.js" crossorigin="anonymous"></script>
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <svg id="fader"></svg>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-5">
+        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="../index.html"><img class="icon-size"
+                    src="../img/misc/favicon.png"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
+                    class="navbar-toggler-icon"></span> </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html">Work</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../about.html">About</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../docs/resume"
+                            target="_blank">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Content -->
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3">
+                <div class="sidebar">
+                    <div class="space-bottom"><a href="../index.html" class="anchor"><i
+                                class="fas fa-arrow-left"></i>&nbsp; Back</a></div>
+                    <div id="tags"> </div>
+                </div>
+            </div>
+
+            <div class="col-lg-9 ml-auto col-sm-12 ">
+                <header>
+                    <div class="headline">
+                        <div class="headline-content">
+                            <h1 class="headline-title display-3">Feed Me</h1>
+                            <h1 class="display-3">Donating excess meal credits</h1>
+                        </div>
+
+
+                        <div class="row d-flex align-content-center space-top proj-body">
+
+                            <div class="col-md-3">
+                                <div class="row d-flex">
+                                    <div class="col-1"> <i class="fas fa-id-card"></i></div>
+                                    <div class="col-10"> Product Designer<br>Front-End Engineer </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="row d-flex">
+                                    <div class="col-1"> <i class="fas fa-clock"></i></div>
+                                    <div class="col-10"> November 2019 - Ongoing</div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="row d-flex">
+                                    <div class="col-1"> <i class="fas fa-users"></i></div>
+                                    <div class="col-10"> Brandon Lee, Erica Li (Back-end Engineers) </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-3">
+                                <div class="row d-flex">
+                                    <div class="col-1"> <i class="fas fa-tools"></i></div>
+                                    <div class="col-10"><span class="badge proj-label">Product Design</span>
+                                        <span class="badge proj-label">Python Flask/CSS/JS</span>
+                                        <span class="badge proj-label">Passion Project</span>
+                                    </div>
+                                </div>
+                            </div>
+                </header>
+
+                <figure> <img src="../img/feedme/feedme_cover.jpg" alt="Feed Me Cover" class="img-fluid space-bottom">
+                </figure>
+                <div class="row d-flex justify-content-start space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s1" class="section">Overview</h1>
+                        <p class="proj-body"> At Brown, both freshmen and sophomores are required to buy a meal
+                            plan, which has an excess of meal credits. We wanted to connect upperclassmen who
+                            can't afford to eat off-campus or have time to
+                            cook with underclassmen who can't finish their swipes. This project was started in
+                            HackPrinceton 2019 and we are currently implementing it at a school-wide level.</p>
+
+                        <h5 class="proj-link"><a href="https://feed-me-brown.herokuapp.com/" target="_blank"><i
+                                    class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out our 1.0
+                                deployed web app</a></h5>
+
+                        <h5 class="proj-link"><a href="https://github.com/mirandamo/feed-me-brown" target="_blank"><i
+                                    class="fab fa-github-alt"></i>&nbsp; &nbsp; Check out our
+                                Github Repository</a></h5>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s2" class="section">Problem</h1>
+                        <p class="proj-body"> How can we <strong>connect</strong> students on-meal plan to
+                            those who are off-meal plan, while <strong>incentivizing
+                                them to reach out to one another</strong>?
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s3" class="section">Solution</h1>
+                        <p class="proj-body"> Feed Me allows students off-meal plan (<strong>Eater</strong>) to buy
+                            a meal swipe from a student on-meal plan (<strong>Feeder</strong>), for a
+                            default $5. This
+                            amount will then be automatically donated to a charity.</p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/solution.jpg" alt="Feed Me Solution" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Ethical Concerns</h1>
+                        <p class="proj-body"> To verify our solution, I brainstormed the app's potential impact.
+                        </p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/ethics.jpg" alt="Ethics" class="img-fluid space-bottom">
+                </figure>
+
+
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s4" class="section">Competitive Analysis</h1>
+                        <p class="proj-body"> Comparing our product to similar initiatives in the market, we are
+                            different because we <strong>donate 100% of the proceeds</strong> and
+                            <strong>focused on building friendships between Feeders and Eaters</strong>.</p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/competition.jpg" alt="Competitors" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s5" class="section">User Research</h1>
+                        <p class="proj-body"> During the first evening of the hackathon, I interviewed six
+                            students from Brown University over text about their experience with the meal
+                            plan. The two personas are based on their responses.</p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/ian.jpg" alt="Persona 1" class="img-fluid space-bottom">
+                </figure>
+                <figure> <img src="../img/feedme/alice.jpg" alt="Persona 2" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Key Insights</h1>
+                        <p class="proj-body space-bottom"> The key insights align with my initial
+                            hypothesis:<br><br>
+                            <strong>Feeders give away swipes to friends off-meal plan generously, while
+                                Eaters prefer campus
+                                dining options because they are cheaper than restaurants.</strong>
+                        </p>
+
+                        <table class="table ml-auto">
+                            <thead>
+                                <tr>
+                                    <th style="width: 20%" scope="col"></th>
+                                    <th style="width: 40%" scope="col">Wants</th>
+                                    <th style="width: 40%" scope="col">Motivations</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">Feeder<br>
+                                        (On-meal plan)</th>
+                                    <td>
+                                        <p class="proj-body">Quality time with friends</p>
+                                        <p class="proj-body">Donating food efficiently</p>
+                                    </td>
+                                    <td>
+                                        <p class="proj-body">Generosity, treating your friend</p>
+                                        <p class="proj-body">Not wasting money since the plan is already
+                                            paid for</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">Eater<br>
+                                        (Off-meal plan)</th>
+                                    <td>
+                                        <p class="proj-body">Cheaper meals</p>
+                                        <p class="proj-body">Efficiency in getting meals</p>
+                                    </td>
+                                    <td>
+                                        <p class="proj-body">Convenience of campus diners</p>
+                                        <p class="proj-body">Lower expenditure on food</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>User Flow</h1>
+                        <p class="proj-body"> Based on the personas and our product's differences from other
+                            apps, I created the user flow to logically represent the user journey. </p>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/userflow.jpg" alt="User Flow" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s6" class="section">Design Process
+                        </h1>
+                        <p class="proj-body"> With a basic UI in mind, I drew some rapid wireframes of
+                            features used by both
+                            users. Then, I conducted user testing on my teammates and noted their comments
+                            as captions under
+                            each wireframe. </p>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/feed_wire.jpg" alt="Lofi Feeder" class="img-fluid space-bottom">
+                </figure>
+                <figure> <img src="../img/feedme/eat_wire.jpg" alt="Lofi Eater" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Branding</h1>
+                        <p class="proj-body"> Moreover, my decision on visual style was greatly influenced
+                            by the
+                            <strong>collaborative aspect</strong> of this mobile web app. Warm colors evoke
+                            the <strong>joy
+                                of eating</strong>, so orange and yellow represent the two users
+                            respectively. The gradient
+                            symbolizes the collaboration between the two users when a meal is claimed.
+                        </p>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/styleGuide.jpg" alt="Branding" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s7" class="section">Hi-Fi Prototypes</h1>
+                        <p class="proj-body"> After a few more iterations, I settled on the final design and
+                            the main
+                            functionalities.
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <h4>1. Sharing a meal </h4>
+                        <p class="proj-body">The feeder will write their location, time frame, and intro
+                            message. A meal
+                            will show up on the Eater's explore page.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ml-auto mr-auto">
+                        <div class="proj-mobile">
+                            <img src="../img/feedme/1feed.gif" alt="Step1"></div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <h4>2. Claiming a meal</h4>
+                        <p class="proj-body">The eater can scroll through the carousel and choose a
+                            Feeder. Then, they
+                            can
+                            directly message each other.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ml-auto mr-auto">
+                        <div class="proj-mobile">
+                            <img src="../img/feedme/2claim.gif" alt="Step2"></div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <h4>3. Swipe confirmation </h4>
+                        <p class="proj-body">The feeder will confirm that they swiped for the Eater. A
+                            congratulatory
+                            message will be shown.
+                        </p>
+                    </div>
+                    <div class="col-md-4 ml-auto mr-auto">
+                        <div class="proj-mobile">
+                            <img src="../img/feedme/3confirm.gif" alt="Step3"></div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <h4>4. Payment confirmation
+                        </h4>
+                        <p class="proj-body">The eater will confirm their payment and the money from the
+                            transaction
+                            will be
+                            donated to a local food bank.</p>
+                    </div>
+                    <div class="col-md-4 ml-auto mr-auto">
+                        <div class="proj-mobile">
+                            <img src="../img/feedme/4confirm2.gif" alt="Step4"></div>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s8" class="section">Challenges</h1>
+                        <h4 class="space-top">1. Developing the Front-End</h4>
+                        <p class="proj-body">After iterating through a few designs and doing user testing on
+                            my teammates, I prioritized functionality and a seamless UX over visual design. We
+                            used Flask to tie the front-end to the PostgreSQL and Python back-end.</p>
+                        <h5 class="proj-link space-bottom"><a href="https://github.com/mirandamo/feed-me-brown"
+                                target="_blank"><i class="fab fa-github-alt"></i>&nbsp; &nbsp; Check out our
+                                Github
+                                Repository!</a></h5>
+
+                        <h4 class="space-top">2. Implementing Security Measures</h4>
+                        <p class="proj-body">We implemented the login and post/claim meals user flows. However,
+                            due to time constraints, we couldn't
+                            develop a
+                            financial transaction platform with the Stripe API and a messaging function with
+                            the Twilio API.
+                        </p>
+                        <h5 class="proj-link space-bottom"><a href="https://feed-me-brown.herokuapp.com/"
+                                target="_blank"><i class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out our
+                                deployed web app!</a></h5>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s9" class="section">What's Next? </h1>
+                        <p class="proj-body"> We are currently working on prototype 2.0, aiming to implement
+                            a functional
+                            messaging and financial platform while addressing the aforementioned ethical
+                            concerns.</p>
+
+                        <p class="proj-body"> For future UX improvements, I would look into:
+                        </p>
+                        <ul class="proj-body">
+                            <li>Represent accomplishments through visual rewards, such as badges
+                            </li>
+                            <li>Design onboarding pages to help users quickly navigate the web app
+                            </li>
+                            <li>Perform more usability tests to further enhance user experience
+                            </li>
+                            <li>Implement a public bulletin for people to share their thoughts and attitudes
+                                towards the
+                                meal plan. This can be used to potentially advise the school administration
+                                and stop
+                                enforced meal plan for sophomores.
+                            </li>
+                        </ul>
+
+                        <p class="proj-body"> Despite not having a fully implemented prototype, my teammates
+                            and I felt a
+                            great sense of <strong>pride and accomplishment</strong> to create a program
+                            that people could
+                            tangibly use in only three days.
+                        </p>
+
+                        <p class="proj-body"> If you are interested in chatting more about my work, I would
+                            love to hear
+                            from you. Otherwise, thanks for reading! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class=" container py-5">
+        <div class="row">
+            <div class="col-sm-8">
+                <p class="mb-1">&copy;
+                    <script>
+                        var d = new Date()
+                        document.write(d.getFullYear())
+                    </script>
+                    coded with 💖 by Miranda Mo
+                </p>
+            </div>
+            <div class="col-sm-4 social text-md-right">
+                <a href="mailto:miranda_mo@brown.edu" target="_blank" class="fa fa-envelope"></i></a>
+                <a href="https://github.com/mirandamo" target="_blank" class="fa fa-github-alt"></a>
+                <a href="https://www.linkedin.com/in/mirandamo/" target="_blank" class="fa fa-linkedin"></a>
+            </div>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="../js/custom.js"></script>
+</body>
+
+</html>
