@@ -38,7 +38,7 @@
     <!-- Content -->
     <div class="container">
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-2">
                 <div class="sidebar">
                     <div class="space-bottom"><a href="../index.html" class="anchor"><i
                                 class="fas fa-arrow-left"></i>&nbsp; Back</a></div>
@@ -46,7 +46,7 @@
                 </div>
             </div>
 
-            <div class="col-lg-9 ml-auto col-sm-12 ">
+            <div class="col-lg-10 ml-auto col-sm-12 ">
                 <header>
                     <div class="headline">
                         <div class="headline-content">
@@ -87,73 +87,69 @@
                         </div>
                     </div>
                 </header>
-                <figure> <img src="../img/foodrescue/iter_cover.jpg" alt="Food Rescue Cover"
+                <figure> <img src="../img/thumbnail/foodrescue.jpg" alt="Food Rescue Cover"
                         class="img-fluid space-bottom">
                 </figure>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1 id="s1" class="section">Overview</h1>
-                        <p class="proj-body"> This project was created for the course <em>User Interfaces and
-                                User
-                                Experience</em> at
-                            Brown University taught by Jeff Huang.
+                        <p class="proj-body"> For this project, we designed an app for a startup based
+                            on only their objective and no previous knowledge of how their interface looks or works. We
+                            chose <strong>412 Food Rescue</strong>, which organizes volunteers to help deliver
+                            surplus food from restaurants to community NGOs visited by people facing food insecurity.
                         </p>
-                        <p class="proj-body">Our goal was to design an app for a startup based on just their
-                            description. We chose <strong>412 Food Rescue</strong>, who partners with
-                            food
-                            retailers to pick up their healthy surplus food and deliver it
-                            to
-                            community
-                            nonprofit organizations visited by people
-                            facing
-                            food
-                            insecurity.
+                        <p class="proj-body"> 
+                            After the project, I redesigned the interaction flow. <a class="proj-link" onclick="scrollSmoothTo('s5')">See final designs here!</a>
                         </p>
-                        <h5 class="proj-link"><a
-                                href="https://www.figma.com/proto/8jiw4VUGCvsJkuVWe9NSKX/Iterative-Hi-fi-prototypes?node-id=1639%3A95&scaling=scale-down"><i
-                                    class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out the Figma interactive
-                                prototype!</a>
-                        </h5>
                     </div>
                 </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Ethical Impact</h1>
-                        <p class="proj-body"> Before starting the design process, we considered how our app
-                            might
-                            affect
-                            various groups of people. </p>
+                        <h1 id="s2" class="section">Research</h1>
+                        <p class="proj-body"> We began the project by <strong>reviewing recent events and online
+                                forums</strong> to know more about Suppliers' struggles to get rid of excess stock and
+                            how NGO employees receive surplus food from retailers. We then conducted
+                            <strong>semi-structured interviews</strong> with Brown student volunteers (participating in
+                            other programs) to understand their habits and frustrations. </p>
+                        <h3 class="space-top">Pain Points</h3>
+                        <ol class="proj-body">
+                            <li>Volunteers cannot do tasks that <strong>don't fit their schedule</strong>.</li>
+                            <li><strong>Miscommunication</strong> happens when volunteers have to individually contact
+                                Suppliers/NGOs.</li>
+                            <li>Volunteers experience <strong>burn-out and disengagement</strong> when tasks are too
+                                long.</li>
+                            <li>Suppliers and NGOs feel that <strong>information is scattered</strong>- there isn't one
+                                place to see what Suppliers will give, when NGOs are open, and when volunteers are
+                                coming by to pick up/deliver food.</li>
+                        </ol>
+
+                        <h3 class="space-top">Synthesis</h3>
+                        <p class="proj-body"> From our research, we created 3 personas that represent our user group.
+                            This helps us better visualize their frustrations and define the problem space. </p>
                     </div>
                 </div>
 
-                <figure> <img src="../img/foodrescue/iter_brainstorm.jpg" alt="Food Rescue Picture"
+                <figure> <img src="../img/foodrescue/food_persona.jpg" alt="Food Rescue Picture"
                         class="img-fluid space-bottom">
                 </figure>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s2" class="section">Problem </h1>
-                        <p class="proj-body">How do we efficiently <strong>connect</strong> food providers,
-                            volunteers, and
-                            community NGOs to <strong>ethically</strong>
-                            reduce food waste?</p>
+                        <h1 id="s3" class="section">Problem </h1>
+                        <p class="proj-body">How do we <strong>unify the process</strong> of delivering surplus food
+                            between food providers, volunteers, and community NGOs and keep users engaged?</p>
                     </div>
                 </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s3" class="section">Solution</h1>
-                        <p class="proj-body"> We created a unified platform for picking up and delivering food.
-                            Suppliers begin by
-                            <strong>posting
-                                pickups</strong>. Then, a volunteer can choose from all the posted pickups and
-                            the
-                            app will
-                            calculate the <strong>most efficient route</strong> to the community NGO. Lastly,
-                            the
-                            <strong>NGO will be notified</strong> when a volunteer is delivering food to them.
+                        <h1>Proposal</h1>
+                        <p class="proj-body">As a result, we created a unified platform for picking up and delivering
+                            food. Suppliers begin by posting pickups. Then, the algorithm will match what food Suppliers
+                            are giving out to NGOs that need it, creating a task for volunteers to do. Lastly, the NGO
+                            can see what food they are about to receive.
                         </p>
                     </div>
                 </div>
@@ -164,93 +160,22 @@
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s4" class="section">User Research</h1>
-                        <p class="proj-body"> To begin, we focused our research on the supplier, volunteer, and
-                            NGO
-                            by
-                            synthesizing information from participants' comments about 412 Food Rescue on their
-                            official
-                            Facebook page.
-                        </p>
-                    </div>
-                </div>
-
-                <figure> <img src="../img/foodrescue/persona1.jpg" alt="Persona 1" class="img-fluid space-bottom">
-                </figure>
-
-                <figure> <img src="../img/foodrescue/persona2.jpg" alt="Persona 2" class="img-fluid space-bottom">
-                </figure>
-
-                <figure> <img src="../img/foodrescue/persona3.jpg" alt="FPersona 3" class="img-fluid space-bottom">
-                </figure>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Key Insights</h1>
-                        <p class="proj-body space-bottom"> The key insights align with my initial hypothesis:
-                            <br><br>
-                            <strong>The Supplier
-                                focuses more on business goals, while the Volunteer and NGO are propelled by
-                                social
-                                good</strong>.
-                        </p>
-
-                        <table class="table ml-auto">
-                            <thead>
-                                <tr>
-                                    <th scope="col"></th>
-                                    <th scope="col">Wants</th>
-                                    <th scope="col">Motivations</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th style="width: 20%" scope="row">Supplier</th>
-                                    <td>
-                                        <p class="proj-body">Providing the best food to customers</p>
-                                        <p class="proj-body">Donating food efficiently</p>
-                                    </td>
-                                    <td>
-                                        <p class="proj-body">Providing the best food to customers</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th style="width: 20%" scope="row">Volunteer</th>
-                                    <td>
-                                        <p class="proj-body">Advocate ethical eating</p>
-                                        <p class="proj-body">Increase community participation in reducing food
-                                            waste
-                                        </p>
-                                    </td>
-                                    <td>
-                                        <p class="proj-body">Desire to improve the environment</p>
-                                        <p class="proj-body">Personal passion</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th style="width: 20%" scope="row">NGO</th>
-                                    <td>
-                                        <p class="proj-body">Help more people facing food insecurity</p>
-                                        <p class="proj-body">Secure permanent food donations</p>
-                                    </td>
-                                    <td>
-                                        <p class="proj-body">Creating social good</p>
-                                        <p class="proj-body">Inspiring institutional organizations to help
-                                            others
-                                        </p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <h1>Project Goals</h1>
+                        <ol class="proj-body">
+                            <li>Easy for Suppliers to post a pickup and NGOs to show they are available for deliveries.
+                            </li>
+                            <li>Allow volunteers to choose tasks based on time</li>
+                            <li>Real-time update Suppliers/NGOs when is coming</li>
+                            <li>Create achievement metrics to engage the volunteer</li>
+                        </ol>
                     </div>
                 </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>User Flow</h1>
-                        <p class="proj-body"> Next, we mapped out the user journey flow of three user groups -
-                            food
-                            suppliers, volunteers, and community NGOs.
+                        <h1 id="s4" class="section">Ideation</h1>
+                        <p class="proj-body"> With the design requirements in mind, we mapped out the user flow to
+                            ideate on functionalities.
                         </p>
                     </div>
                 </div>
@@ -259,41 +184,40 @@
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s5" class="section">Process and Iterations</h1>
-                        <p class="proj-body"> With the above user flow, we created wireframes for each user
-                            group.
-                            Then, we
-                            conducted brief user testing on our friends by assigning each of them a user group.
-                            Their
-                            comments are noted below each wireframe.
+                        <h3>Whiteboarding, Wireframing, Testing</h3>
+                        <p class="proj-body">Base on the user flow, we created wireframes to test usability. We got
+                            users to read one of the persona cards, then gave them a task to do from the perspective of
+                            a volunteer, Supplier, or NGO. The feedback from usability testing helped us <strong>identify key user scenarios</strong> for focused design iterations.
                         </p>
                     </div>
                 </div>
-                <figure> <img src="../img/foodrescue/lofi_supplier.jpg" alt="Lofi Supplier"
-                        class="img-fluid space-bottom">
-                </figure>
-                <figure> <img src="../img/foodrescue/lofi_vol.jpg" alt="Lofi Volunteer" class="img-fluid space-bottom">
-                </figure>
-                <figure> <img src="../img/foodrescue/lofi_ngo.jpg" alt="Lofi NGO" class="img-fluid space-bottom">
-                </figure>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure> <img src="../img/foodrescue/food_whiteboard.jpg" alt="Lofi NGO" class="img-fluid ">
+                        </figure>
+                    </div>
+
+                    <div class="col-md-6">
+                        <figure> <img src="../img/foodrescue/lofi_vol.jpg" alt="Lofi Volunteer" class="img-fluid ">
+                        </figure>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <figure> <img src="../img/foodrescue/lofi_Supplier.jpg" alt="Lofi Supplier" class="img-fluid ">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure> <img src="../img/foodrescue/lofi_ngo.jpg" alt="Lofi NGO" class="img-fluid "></figure>
+                    </div>
+                </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>After the 1st Iteration…
-                        </h1>
-                        <p class="proj-body"> Based on the feedback, we added new screens and integrated them
-                            into a
-                            wireflow. Some notable changes include:
+                        <p class="proj-body"> After initial testing, we integrated the screens into a mid-fidelity
+                            wireflow to guarantee a <strong> cohesive interaction logic</strong>.
                         </p>
-                        <ul class="proj-body">
-                            <li>Delivery Details page lists information such as trip distance, food to pick up,
-                                pickup time
-                                frame</li>
-                            <li>Pickup/Drop-off Confirmations that have more personalized messages when the
-                                volunteer
-                                arrives</li>
-                            <li>A congratulatory message at the end of a delivery</li>
-                        </ul>
                     </div>
                 </div>
                 <figure> <img src="../img/foodrescue/wireflow.jpg" alt="Wireflow" class="img-fluid space-bottom">
@@ -301,25 +225,11 @@
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>After the 2nd Iteration…</h1>
-                        <p class="proj-body"> Based on our new wireframes, we created hi-fi prototypes and
-                            presented
-                            the
-                            volunteer screens to our class of 20 students (in-class critique only allowed one
-                            user
-                            flow
-                            submission).
-                        </p>
-                    </div>
-                </div>
-
-                <figure> <img src="../img/foodrescue/improve.jpg" alt="Improvement" class="img-fluid space-bottom">
-                </figure>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Style Guide</h1>
-                        <p class="proj-body"> Our main color is green, which represents the environmental and social
-                            impact our app creates.
+                        <h1>Branding</h1>
+                        <p class="proj-body"> After solidifying our interactive flow, I took the lead in turning our
+                            app's values into our visual identity. Our goal is to remind users of the <strong>social and
+                                environmental impact</strong> they are making. Therefore, the neo mint green theme
+                            creates a fresh look and goes hand in hand with the idea of helping the environment.
                         </p>
                     </div>
                 </div>
@@ -329,72 +239,121 @@
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s6" class="section">Hi-Fi Prototypes</h1>
-                        <p class="proj-body"> After three iterations, we finalized the designs for the three
-                            user
-                            flows and
-                            they are displayed below.
+                        <h1 id="s5" class="section">Final Design</h1>
+                        <p class="proj-body">Like all school projects done in a time crunch, the Supplier and NGO experiences were not ideal. I took the time to redesign all the screens, focusing on <strong>intuitive and cohesive</strong> experiences. 
                         </p>
-                        <h5 class="proj-link space-bottom"><a
-                                href="https://www.figma.com/proto/8jiw4VUGCvsJkuVWe9NSKX/Iterative-Hi-fi-prototypes?node-id=1639%3A95&scaling=scale-down"><i
-                                    class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out the Figma interactive
-                                prototype!</a></h5>
                     </div>
-                    <div class="d-flex row space-md bg-grey mb-3">
-                        <div class="col-md-4 mt-auto mb-auto ml-auto">
-                            <h4>1. Supplier</h4>
-                            <p class="proj-body"> The supplier can post a task, wait for a volunteer to claim
-                                it,
-                                then
-                                confirm the pickup. Their accomplishments are also accessed on the dashboard.
-                            </p>
-                        </div>
-                        <div class="col-md-4 ml-auto mr-auto">
-                            <div class="proj-phone">
-                                <iframe src="https://player.vimeo.com/video/381893116?autoplay=0&loop=1&autopause=0"
-                                    width="640" height="360" frameborder="0" allow="autoplay"></iframe>
+                </div>
+                <div class="row space-md bg-grey mb-3">
+                    <div class="col-lg-10 ml-auto mr-auto">
+                        <h4>1. Create a task.</h4>
+                        <p class="proj-body">May (Supplier) begins by posting a pickup. Earl (NGO) is now open and
+                            enables food deliveries. The app creates a task by connecting May's pickup with Earl's
+                            open NGO.</p>
+                        <div class="row">
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Supplier</p>
+                                <img src="../img/foodrescue/hifi_sup_post.gif" alt="Post a task" class="proj-gif">
                             </div>
-                        </div>
-                    </div>
-                    <div class="d-flex row space-md bg-grey mb-3">
-                        <div class="col-md-4 mt-auto mb-auto ml-auto ">
-                            <h4>2. Volunteer</h4>
-                            <p class="proj-body"> The volunteer can pick a task from the dashboard, and the app
-                                will
-                                guide
-                                them to the pickup and drop-off locations. They can also view their achievements
-                                by
-                                clicking
-                                into their Profile.</p>
-                        </div>
-                        <div class="col-md-4 ml-auto mr-auto">
-                            <div class="proj-phone">
-                                <iframe
-                                    src="https://player.vimeo.com/video/381884667?transparent=1autoplay=1&loop=1&autopause=0"
-                                    width="640" height="360" frameborder="0" allow="autoplay"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="d-flex row space-md bg-grey mb-3">
-                        <div class="col-md-4 mt-auto mb-auto ml-auto">
-                            <h4>3. NGO</h4>
-                            <p class="proj-body"> The NGO can enable food deliveries on the home page. Then,
-                                they
-                                can see
-                                volunteer details at the top and confirm their delivery. </p>
-                        </div>
-                        <div class="col-md-4 ml-auto mr-auto">
-                            <div class="proj-phone">
-                                <iframe src="https://player.vimeo.com/video/381895561?autoplay=0&loop=1&autopause=0"
-                                    width="640" height="360" frameborder="0" allow="autoplay"></iframe>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>NGO</p>
+                                <img src="../img/foodrescue/hifi_ngo_open.gif" alt="Open for delivery" class="proj-gif">
                             </div>
                         </div>
                     </div>
                 </div>
 
+                <div class="row space-md bg-grey mb-3">
+                    <div class="col-lg-10 ml-auto mr-auto">
+                        <h4>2. Accept a task. </h4>
+                        <p class="proj-body">Pete (Volunteer) sees what tasks are available when he's free by
+                            using
+                            the filter on the top. He then selects a task and heads to the Supplier and NGO in
+                            the
+                            Supplier's pickup time frame. Both May and Earl are notified a volunteer is
+                            coming
+                            and can check the volunteer's ETA and location. </p>
+                        <div class="row">
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Volunteer</p>
+                                <img src="../img/foodrescue/hifi_vol_choose.gif" alt="Volunteer choose"
+                                    class="proj-gif">
+                            </div>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Supplier</p>
+                                <img src="../img/foodrescue/hifi_sup_progress.gif" alt="Supplier progress"
+                                    class="proj-gif">
+                            </div>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>NGO</p>
+                                <img src="../img/foodrescue/hifi_ngo_progress.gif" alt="NGO progree" class="proj-gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row space-md bg-grey mb-3">
+                    <div class="col-lg-10 ml-auto mr-auto">
+                        <h4>3. Confirm a pickup or delivery </h4>
+                        <p class="proj-body">When Pete arrives, he picks up/delivers the food to the designated
+                            area or calls May or Earl. Once he confirms the pickup or delivery, May and Earl's task
+                            is auto-completed. </p>
+                        <div class="row">
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Volunteer</p>
+                                <img src="../img/foodrescue/hifi_vol_complete.gif" alt="Volunteer complete"
+                                    class="proj-gif">
+                            </div>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Supplier</p>
+                                <img src="../img/foodrescue/hifi_sup_complete.gif" alt="Supplier complete"
+                                    class="proj-gif">
+                            </div>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>NGO</p>
+                                <img src="../img/foodrescue/hifi_ngo_complete.gif" alt="NGO complete" class="proj-gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row space-md bg-grey mb-3">
+                    <div class="col-lg-10 ml-auto mr-auto">
+                        <h4>4. Achievement metrics </h4>
+                        <p class="proj-body">Once Pete completes the task, he receives a thank you note and wins
+                            achievements. He can see his accomplishments in his profile. </p>
+                        <div class="row">
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Volunteer</p>
+                                <img src="../img/foodrescue/hifi_vol_thanks.gif" alt="Volunteer thanks"
+                                    class="proj-gif">
+                            </div>
+                            <div class="col-md-4 ml-auto mr-auto">
+                                <p>Volunteer</p>
+                                <img src="../img/foodrescue/hifi_vol_profile.gif" alt="Volunteer profile"
+                                    class="proj-gif">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="row space-md mb-3">
+                    <div class="col-lg-10 ml-auto mr-auto">
+                        <h1>Try it out yourself!</h1>
+                        <div class="proj-video"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800"
+                                height="450"
+                                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFWkD5hSEU5EB4FNn7E4yPb%2FPortfolio-Decks%3Fnode-id%3D1603%253A518%26scaling%3Dscale-down&chrome=DOCUMENTATION"
+                                allowfullscreen></iframe></div>
+                    </div>
+                </div> -->
+
+
+
+
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s7" class="section">User Testing </h1>
+                        <h1>User Testing, again!</h1>
                         <p class="proj-body">Lastly, we submitted our volunteer hi-fi prototype to
                             UserTesting.com.
                         </p>
@@ -406,43 +365,24 @@
                                 distractions</strong>. Three UX researchers (alias Abby, Bryan, Caleb)
                             tested our interface, and
                             their
-                            responses and quantitatively and qualitatively analyzed below.
+                            responses and quantitatively and qualitatively analyzed.
                         </p>
 
                     </div>
                 </div>
 
-                <figure> <img src="../img/foodrescue/task1.jpg" alt="Task 1" class="img-fluid space-bottom">
+                <figure> <img src="../img/foodrescue/food_testing.jpg" alt="Tasks" class="img-fluid space-bottom">
                 </figure>
-                <figure> <img src="../img/foodrescue/task2.jpg" alt="Task 2" class="img-fluid space-bottom">
-                </figure>
-                <figure> <img src="../img/foodrescue/task3.jpg" alt="Task 3" class="img-fluid space-bottom">
-                </figure>
-
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h4>User Satisfaction</h4>
-                        <p class="proj-body"> Our low time on task averages support that the <strong>users
-                                are
-                                generally
-                                satisfied by the app’s simplicity</strong>, with Caleb saying “Nothing is
-                            confusing.” Abby mentioned that seeing her achievements at the end of delivery
-                            makes
-                            her
-                            feel an
-                            “adrenaline rush,” and Beth noted that her accomplishment metrics keep her
-                            engaged.
-                        </p>
-
-                        <h4 class="space-top">Conclusion </h4>
-                        <p class="proj-body"> Overall, <strong>our hypothesis was supported </strong>because
-                            our
-                            users were
-                            able to successfully use the app to make a delivery in 2:45 minutes. Therefore, we accept our
-                            hypothesis
-                            because users
-                            were able to complete a delivery without getting distracted in the process.
+                        <h3>Conclusion</h3>
+                        <p class="proj-body"> Our hypothesis was supported because our users were able to
+                            successfully
+                            use the app to make a delivery in 2:45 minutes. Abby mentioned that seeing her
+                            achievements
+                            at the end of delivery makes her feel an “adrenaline rush,” and Brian noted that <strong>his
+                            accomplishment metrics keep him engaged</strong>.
                         </p>
                     </div>
                 </div>
@@ -453,28 +393,32 @@
 
                         <p class="proj-body"> For future UX improvements, I would look into:
                         </p>
-                        <h4>1. Accessibility for Disabilities Improvements </h4>
+                        <h5>1. Accessibility for Disabilities Improvements </h5>
                         <ul class="proj-body">
-                            <li>For supplier/NGO contacts with visual impairments, include a note that tells
+                            <li>For color blind users, revamp our app's red-green color scheme so elements are
+                                more
+                                distinguishable. </li>
+                            <li>For Supplier/NGO contacts with visual impairments, include a note that tells
                                 the
                                 volunteer
-                                to call the supplier/NGO employer rather than text.
+                                to call the Supplier/NGO employer rather than text.
                             </li>
                             <li>For volunteers with hearing impairments, include a note that tells the
-                                supplier/NGO
+                                Supplier/NGO
                                 employer
                                 to text rather than call.
                             </li>
                         </ul>
-                        <h4>2. Achievements panel to increase motivation</h4>
+                        <h5>2. Achievements panel to increase motivation</h5>
                         <ul class="proj-body">
-                            <li>Make Achievements a plant that grows with donations, so suppliers and volunteers can
+                            <li>Make Achievements a plant that grows with donations, so Suppliers and volunteers
+                                can
                                 visually see their contributions in helping the planet go green.
                             </li>
                         </ul>
-                        <h4>3. Onboarding pages for elderly NGO workers</h4>
+                        <h5>3. Onboarding pages for elderly NGO workers</h5>
                         <ul class="proj-body">
-                            <li>Focusing on teaching simple navigations for pickups.
+                            <li>Focus on teaching the more modern horizontal scroll motion to reveal more information.
                             </li>
                         </ul>
                         <p class="proj-body space-top"> If you are interested in chatting more about my work, I

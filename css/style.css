@@ -245,6 +245,10 @@ span-color {
     transform: translateY(-.8em);
 }
 
+.proj-gif {
+    max-height: 600px;
+}
+
 .card-body {
     padding: 1.5rem 2rem ;
 }
@@ -283,6 +287,10 @@ Project
 .proj-caption {
     padding: 1.5em 0;
     text-align: center;
+}
+
+.proj-figure-text {
+    te
 }
 
 .proj-quote {
