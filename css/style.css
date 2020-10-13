@@ -247,6 +247,7 @@ span-color {
 
 .proj-gif {
     max-height: 600px;
+    width: 100%;
 }
 
 .card-body {
@@ -287,10 +288,6 @@ Project
 .proj-caption {
     padding: 1.5em 0;
     text-align: center;
-}
-
-.proj-figure-text {
-    te
 }
 
 .proj-quote {
