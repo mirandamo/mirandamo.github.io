@@ -422,6 +422,7 @@ span-color {
 
 .proj-gif {
     max-height: 600px;
+    width: 100%;
 }
 
 .card-body {
