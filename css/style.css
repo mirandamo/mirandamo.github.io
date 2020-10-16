@@ -1,6 +1,174 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Light.eot');
+    src: local('Calibre Light'), local('Calibre-Light'),
+        url('Calibre-Light.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Light.woff2') format('woff2'),
+        url('Calibre-Light.woff') format('woff'),
+        url('Calibre-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Thin.eot');
+    src: local('Calibre Thin'), local('Calibre-Thin'),
+        url('Calibre-Thin.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Thin.woff2') format('woff2'),
+        url('Calibre-Thin.woff') format('woff'),
+        url('Calibre-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-LightItalic.eot');
+    src: local('Calibre Light Italic'), local('Calibre-LightItalic'),
+        url('Calibre-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-LightItalic.woff2') format('woff2'),
+        url('Calibre-LightItalic.woff') format('woff'),
+        url('Calibre-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-MediumItalic.eot');
+    src: local('Calibre Medium Italic'), local('Calibre-MediumItalic'),
+        url('Calibre-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-MediumItalic.woff2') format('woff2'),
+        url('Calibre-MediumItalic.woff') format('woff'),
+        url('Calibre-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-BlackItalic.eot');
+    src: local('Calibre Black Italic'), local('Calibre-BlackItalic'),
+        url('Calibre-BlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-BlackItalic.woff2') format('woff2'),
+        url('Calibre-BlackItalic.woff') format('woff'),
+        url('Calibre-BlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Semibold.eot');
+    src: local('Calibre Semibold'), local('Calibre-Semibold'),
+        url('Calibre-Semibold.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Semibold.woff2') format('woff2'),
+        url('Calibre-Semibold.woff') format('woff'),
+        url('Calibre-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Black.eot');
+    src: local('Calibre Black'), local('Calibre-Black'),
+        url('Calibre-Black.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Black.woff2') format('woff2'),
+        url('Calibre-Black.woff') format('woff'),
+        url('Calibre-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Medium.eot');
+    src: local('Calibre Medium'), local('Calibre-Medium'),
+        url('Calibre-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Medium.woff2') format('woff2'),
+        url('Calibre-Medium.woff') format('woff'),
+        url('Calibre-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-RegularItalic.eot');
+    src: local('Calibre Regular Italic'), local('Calibre-RegularItalic'),
+        url('Calibre-RegularItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-RegularItalic.woff2') format('woff2'),
+        url('Calibre-RegularItalic.woff') format('woff'),
+        url('Calibre-RegularItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-BoldItalic.eot');
+    src: local('Calibre Bold Italic'), local('Calibre-BoldItalic'),
+        url('Calibre-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-BoldItalic.woff2') format('woff2'),
+        url('Calibre-BoldItalic.woff') format('woff'),
+        url('Calibre-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Bold.eot');
+    src: local('Calibre Bold'), local('Calibre-Bold'),
+        url('Calibre-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Bold.woff2') format('woff2'),
+        url('Calibre-Bold.woff') format('woff'),
+        url('Calibre-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-Regular.eot');
+    src: local('Calibre'), local('Calibre-Regular'),
+        url('Calibre-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-Regular.woff2') format('woff2'),
+        url('Calibre-Regular.woff') format('woff'),
+        url('Calibre-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-SemiboldItalic.eot');
+    src: local('Calibre Semibold Italic'), local('Calibre-SemiboldItalic'),
+        url('Calibre-SemiboldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-SemiboldItalic.woff2') format('woff2'),
+        url('Calibre-SemiboldItalic.woff') format('woff'),
+        url('Calibre-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Calibre';
+    src: url('Calibre-ThinItalic.eot');
+    src: local('Calibre Thin Italic'), local('Calibre-ThinItalic'),
+        url('Calibre-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('Calibre-ThinItalic.woff2') format('woff2'),
+        url('Calibre-ThinItalic.woff') format('woff'),
+        url('Calibre-ThinItalic.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -11,12 +179,13 @@ html {
     --text-grey: #737373;
     --text-light: #CCCCCC;
     --hover-transition: all 0.2s ease-in-out;
+    --font-bold: 600;
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Calibre', sans-serif;
     color: var( --text-dark);
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /*/////////////////////
@@ -57,8 +226,8 @@ Globals
 }
 
 .container {
-    width: 90%;
-    max-width: 1440px;
+    width: 95%;
+    max-width: 1500px;
 }
 
 a, a:hover{
@@ -93,7 +262,7 @@ a, a:hover{
 
 .h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6 {
     margin: .5rem 0;
-    font-weight: 700;
+    font-weight: var( --font-bold);
     line-height: 1.5;
 }
 
@@ -104,11 +273,13 @@ a, a:hover{
 }
 
 .headline-title {
-    font-weight: 700;
+    font-size: 4.5rem;
+    font-weight: var( --font-bold);
+    line-height: 1.1em;
 }
 
 .headline-subtitle {
-    font-size: 32px;
+    font-size: 1.7rem;
 }
 
 .flex-two {
@@ -120,13 +291,16 @@ a, a:hover{
     border-radius: 10px;
 }
 
+strong {
+    font-weight: var( --font-bold);
+}
+
 /*/////////////////////
 Navigation
 ///////////////////////*/
 
 .nav-item {
     padding-left: 20px;
-    font-weight: 600;
     -webkit-transition: var(--hover-transition);
     -moz-transition: var(--hover-transition);
     -o-transition: var(--hover-transition);
@@ -137,13 +311,10 @@ Navigation
     opacity: 0.6;
 }
 
-.navbar {
-    padding: 1rem;
-}
-
-.navbar-light .navbar-nav .nav-link {
-    color: #444;
-    letter-spacing: .04rem;
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
+    color: var(--text-dark);
+    font-weight: var( --font-bold);
+    font-size: 1em;
 }
 
 .anchor {
@@ -165,6 +336,10 @@ Navigation
       
   .active {
     color: var(--primary-color);;
+  }
+
+  .navbar {
+      padding: 0;
   }
 
 /*/////////////////////
@@ -226,7 +401,7 @@ span-color {
     background-color: rgba(0, 184, 148, 0.05);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: .5em .8em;
+    padding: .5em .8em 0.3em 0.8em;
     font-weight: 400;
 }
 
@@ -287,10 +462,6 @@ Project
 .proj-caption {
     padding: 1.5em 0;
     text-align: center;
-}
-
-.proj-figure-text {
-    te
 }
 
 .proj-quote {
@@ -419,25 +590,15 @@ Media queries
     .nav-item {
         padding-left: 0px;
     }
-    .display-3 {
-        font-size: 42px;
-    }
-    .headline-subtitle {
-        font-size: 18px;
-    }
     .sidebar {
         display: none;
     }
-
     #art-gallery {
         grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media only screen and (max-width: 767px) {
-    body {
-        font-size: 14px !important;
-    }
     #proj-gallery {
         grid-template-columns: repeat(1, 1fr);
     }
