@@ -16,10 +16,9 @@
 
 <body>
     <svg id="fader"></svg>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white py-5">
-        <div class="container"> <a class="navbar-brand js-scroll-trigger" href="../index.html"><img class="icon-size"
-                    src="../img/misc/favicon.png"></a>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white py-5">
+            <a class="navbar-brand js-scroll-trigger" href="../index.html">Miranda Mo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
                     class="navbar-toggler-icon"></span> </button>
@@ -27,19 +26,17 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html">Work</a>
                     </li>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../proj/sandbox.html">Fun</a>
+                    </li>
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../about.html">About</a>
                     </li>
-                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../docs/resume"
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../docs/resume.pdf"
                             target="_blank">Resume</a>
                     </li>
                 </ul>
             </div>
-        </div>
-    </nav>
-    <!-- Content -->
-    <div class="container">
+        </nav>
         <div class="row">
-
             <div class="col-lg-2">
                 <div class="sidebar">
                     <div class="space-bottom"><a href="../index.html" class="anchor"><i
@@ -49,66 +46,61 @@
             </div>
 
             <div class="col-lg-10 ml-auto col-sm-12 ">
-                <header>
-                    <div class="headline">
-                        <div class="headline-content">
-                            <h1 class="headline-title display-3">Feed Me</h1>
-                            <h1 class="display-3">Donating excess meal credits</h1>
+                <div class="headline">
+                    <div class="headline-content">
+                        <h1 class="headline-title display-3">Feed Me</h1>
+                        <h1 class="display-3">Donating excess meal credits</h1>
+                    </div>
+
+
+                    <div class="row d-flex align-content-center space-top proj-body">
+                        <div class="col-md-3">
+                            <div class="small-text">Role</div>
+                            <p>Product Designer<br>Front-End Engineer</p>
                         </div>
 
+                        <div class="col-md-3">
+                            <div class="small-text">Duration</div>
+                            <p>November 2019 - Ongoing</p>
+                        </div>
 
-                        <div class="row d-flex align-content-center space-top proj-body">
+                        <div class="col-md-3">
+                            <div class="small-text">Team</div>
+                            <p><a href="https://www.linkedin.com/in/brandonqlee/" class="proj-link"
+                                    target="_blank">Brandon
+                                    Lee</a>, <a href="https://www.linkedin.com/in/erica-li-30aa92177/" class="proj-link"
+                                    target="_blank">Erica Li</a> (Back-end Engineers)</p>
+                        </div>
 
-                            <div class="col-md-3">
-                                <div class="row d-flex">
-                                    <div class="col-1"> <i class="fas fa-id-card"></i></div>
-                                    <div class="col-10"> Product Designer<br>Front-End Engineer </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="row d-flex">
-                                    <div class="col-1"> <i class="fas fa-clock"></i></div>
-                                    <div class="col-10"> November 2019 - Ongoing</div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="row d-flex">
-                                    <div class="col-1"> <i class="fas fa-users"></i></div>
-                                    <div class="col-10"> Brandon Lee, Erica Li (Back-end Engineers) </div>
-                                </div>
-                            </div>
-
-                            <div class="col-md-3">
-                                <div class="row d-flex">
-                                    <div class="col-1"> <i class="fas fa-tools"></i></div>
-                                    <div class="col-10"><span class="badge proj-label">Product Design</span>
-                                        <span class="badge proj-label">Python Flask/CSS/JS</span>
-                                        <span class="badge proj-label">Passion Project</span>
-                                    </div>
-                                </div>
-                            </div>
-                </header>
-
-                <figure> <img src="../img/feedme/feedme_cover.jpg" alt="Feed Me Cover" class="img-fluid space-bottom">
+                        <div class="col-md-3">
+                            <div class="small-text">Skills</div>
+                            <span class="badge proj-label">Product Design</span>
+                            <span class="badge proj-label">Python Flask/CSS/JS</span>
+                            <span class="badge proj-label">Passion Project</span>
+                        </div>
+                    </div>
+                </div>
+                <figure> <img src="../img/thumbnail/feedme.jpg" alt="Feed Me Cover" class="img-fluid space-bottom">
                 </figure>
                 <div class="row d-flex justify-content-start space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1 id="s1" class="section">Overview</h1>
-                        <p class="proj-body"> At Brown, both freshmen and sophomores are required to buy a meal
-                            plan, which has an excess of meal credits. We wanted to connect upperclassmen who
-                            can't afford to eat off-campus or have time to
-                            cook with underclassmen who can't finish their swipes. This project was started in
-                            HackPrinceton 2019 and we are currently implementing it at a school-wide level.</p>
+                        <p class="proj-body"> At Brown, both freshmen and sophomores are required to buy a meal plan,
+                            which has an excess of meal credits. Therefore, we want to connect upperclassmen looking for
+                            cheap meals with underclassmen who can't finish their swipes (one swipe = one meal). </p>
+                        <p class="proj-body">We began this project at HackPrinceton2019, where I led the research and
+                            design processes. I also used HTML/CSS/JS and Flask
+                            to tie the front-end to the PostgreSQL and Python back-end. Afterwards, I took the iniative
+                            to redesign Feed Me to improve the usability and interaction design. <a
+                                class="proj-link" onclick="scrollSmoothTo('s5')">See final designs here!</a></p>
 
-                        <h5 class="proj-link"><a href="https://feed-me-brown.herokuapp.com/" target="_blank"><i
+                        <h4 class="proj-link"><a href="https://feed-me-brown.herokuapp.com/" target="_blank"><i
                                     class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out our 1.0
-                                deployed web app</a></h5>
+                                deployed web app</a></h4>
 
-                        <h5 class="proj-link"><a href="https://github.com/mirandamo/feed-me-brown" target="_blank"><i
+                        <h4 class="proj-link"><a href="https://github.com/mirandamo/feed-me-brown" target="_blank"><i
                                     class="fab fa-github-alt"></i>&nbsp; &nbsp; Check out our
-                                Github Repository</a></h5>
+                                Github Repository</a></h4>
                     </div>
                 </div>
 
@@ -124,279 +116,334 @@
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s3" class="section">Solution</h1>
-                        <p class="proj-body"> Feed Me allows students off-meal plan (<strong>Eater</strong>) to buy
-                            a meal swipe from a student on-meal plan (<strong>Feeder</strong>), for a
-                            default $5. This
-                            amount will then be automatically donated to a charity.</p>
+                        <h1>Solution</h1>
+                        <p class="proj-body"> As a result, we created Feed Me, a web app that allows students on-meal plan
+                            (Giver) to sell a meal credit to students off-meal plan (Buyer) for a cheap price.</p>
                     </div>
                 </div>
 
-                <figure> <img src="../img/feedme/solution.jpg" alt="Feed Me Solution" class="img-fluid space-bottom">
+                <figure> <img src="../img/feedme/feedme-solution.jpg" alt="Feed Me Solution"
+                        class="img-fluid space-bottom">
                 </figure>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Ethical Concerns</h1>
-                        <p class="proj-body"> To verify our solution, I brainstormed the app's potential impact.
+                        <h1 id="s3" class="section">Research</h1>
+                        <p class="proj-body"> To set the project off by defining the problem space, I collected data from <strong>recent news</strong> and conducted <strong>6 semi-structured interviews</strong> with my friends over messenger.
                         </p>
                     </div>
                 </div>
 
-                <figure> <img src="../img/feedme/ethics.jpg" alt="Ethics" class="img-fluid space-bottom">
+                <figure> <img src="../img/feedme/feedme-research.jpg" alt="Research" class="img-fluid space-bottom">
                 </figure>
 
 
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s4" class="section">Competitive Analysis</h1>
-                        <p class="proj-body"> Comparing our product to similar initiatives in the market, we are
-                            different because we <strong>donate 100% of the proceeds</strong> and
-                            <strong>focused on building friendships between Feeders and Eaters</strong>.</p>
-                    </div>
-                </div>
-
-                <figure> <img src="../img/feedme/competition.jpg" alt="Competitors" class="img-fluid space-bottom">
-                </figure>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s5" class="section">User Research</h1>
-                        <p class="proj-body"> During the first evening of the hackathon, I interviewed six
-                            students from Brown University over text about their experience with the meal
-                            plan. The two personas are based on their responses.</p>
-                    </div>
-                </div>
-
-                <figure> <img src="../img/feedme/ian.jpg" alt="Persona 1" class="img-fluid space-bottom">
-                </figure>
-                <figure> <img src="../img/feedme/alice.jpg" alt="Persona 2" class="img-fluid space-bottom">
-                </figure>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Key Insights</h1>
-                        <p class="proj-body space-bottom"> The key insights align with my initial
-                            hypothesis:<br><br>
-                            <strong>Feeders give away swipes to friends off-meal plan generously, while
-                                Eaters prefer campus
-                                dining options because they are cheaper than restaurants.</strong>
+                        <h2>Personas</h2>
+                        <p class="proj-body">From my research and interviews, I synthesized 2 personas that represent
+                            our user group. This helps us better visualize their frustrations and extract gain points.
                         </p>
+                    </div>
+                </div>
 
-                        <table class="table ml-auto">
-                            <thead>
-                                <tr>
-                                    <th style="width: 20%" scope="col"></th>
-                                    <th style="width: 40%" scope="col">Wants</th>
-                                    <th style="width: 40%" scope="col">Motivations</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <th scope="row">Feeder<br>
-                                        (On-meal plan)</th>
-                                    <td>
-                                        <p class="proj-body">Quality time with friends</p>
-                                        <p class="proj-body">Donating food efficiently</p>
-                                    </td>
-                                    <td>
-                                        <p class="proj-body">Generosity, treating your friend</p>
-                                        <p class="proj-body">Not wasting money since the plan is already
-                                            paid for</p>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th scope="row">Eater<br>
-                                        (Off-meal plan)</th>
-                                    <td>
-                                        <p class="proj-body">Cheaper meals</p>
-                                        <p class="proj-body">Efficiency in getting meals</p>
-                                    </td>
-                                    <td>
-                                        <p class="proj-body">Convenience of campus diners</p>
-                                        <p class="proj-body">Lower expenditure on food</p>
-                                    </td>
-                                </tr>
-                            </tbody>
-                        </table>
+                <figure> <img src="../img/feedme/feedme-persona.jpg" alt="Personas" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h2>Pain Points</h2>
+                        <ol class="proj-body">
+                            <li>People off meal plan think both the meal plan and takeout options are too
+                                <strong>expensive</strong> for college students. </li>
+                            <li>Upperclassmen don't have time to cook and miss the <strong>convenience</strong> of
+                                cafeteria food.
+                            </li>
+                            <li>Freshmen and sophomores wish they can <strong>get their money back</strong> for leftover
+                                swipes.
+                            </li>
+                            <li>Underclassmen who don't have upperclassmen friends <strong>don't know who needs
+                                    swipes</strong>. </li>
+                        </ol>
+
+                        <h2 class="space-top">Ethics</h2>
+                        <p class="proj-body">Since our app deals directly with users' money, we want them to
+                            <strong>feel safe</strong> when using Feed Me. Therefore, we brainstormed solutions to
+                            ensure <strong>user privacy</strong> and <strong>security</strong> that is within our
+                            technical capabilities.
+                        </p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/feedme-ethics.jpg" alt="Ethics" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h2>Not everything is about money.</h2>
+                        <p class="proj-body">Beyond incentivizing students with monetary rewards, we want to empower
+                            them to help those who are food insecure at school and in the greater Rhode Island community. Thus, I
+                            proposed that Givers can provide <strong>free meals for low-income students</strong>.
+                            Moreover, we decided to automatically <strong>donate $2 for every $5</strong> to RI food
+                            pantries.
+                        </p>
                     </div>
                 </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>User Flow</h1>
-                        <p class="proj-body"> Based on the personas and our product's differences from other
-                            apps, I created the user flow to logically represent the user journey. </p>
+                        <h1>Proposal</h1>
+                        <p class="proj-body">Consequently, Feed Me allows Buyers to purchase a
+                            meal swipe from a Giver for a default $5. This is a lot less than $13, the average cost of
+                            a meal at an inexpensive restaurant in Rhode Island (<a
+                                href="https://www.numbeo.com/cost-of-living/in/Providence" target="_blank"><span
+                                    class="proj-link">Numbeo</span></a>). For each meal, the Giver earns $3 and donates
+                            $2 to the Rhode Island Community Food Pantry. Givers also have the option to provide a free
+                            meal for low-income students.
+                        </p>
+                    </div>
+                </div>
+
+                <figure> <img src="../img/feedme/feedme-proposal.jpg" alt="Persona 1" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Project Goals</h1>
+                        <ol class="proj-body">
+                            <li>Create a safe and easy way to share and claim meals
+                            </li>
+                            <li>Incentivize Givers to share through monetary reward and social impact</li>
+                            <li>Support students who face financial concerns and food insecurity</li>
+                            <li>Positively impact the greater local community</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s4" class="section">Ideation</h1>
+                        <h2 class="space-top">Competitive Analysis</h2>
+                        <p class="proj-body"> We compared Feed Me to similar initiatives and the main differences we
+                            noticed were:
+                        </p>
+                        <ul class="proj-body">
+                            <li><strong>Business Model</strong>: Dependent on student's altruism to donate free meals
+                                vs. partial financial reward
+                            </li>
+                            <li><strong>Student Interaction</strong>: Donate extra swipes to a fund vs. meeting the
+                                student you are helping
+                            </li>
+                            <li><strong>Social Impact</strong>: Programs that train students for social entrepreneurship
+                                vs. direct donations to charity
+                            </li>
+                        </ul>
+                        <figure> <img src="../img/feedme/feedme-comp.jpg" alt="User Flow"
+                                class="img-fluid space-bottom">
+                        </figure>
+                    </div>
+                </div>
+
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h2>User Flow</h2>
+                        <p class="proj-body">Keeping the product requirements in mind, I constructed a basic flow of
+                            sharing and claiming a meal. This helps us see how the user navigates the web app based on
+                            user goals. </p>
                     </div>
                 </div>
                 <figure> <img src="../img/feedme/userflow.jpg" alt="User Flow" class="img-fluid space-bottom">
                 </figure>
 
-                <div class="row space-md">
+                <div class="row space-top">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s6" class="section">Design Process
-                        </h1>
-                        <p class="proj-body"> With a basic UI in mind, I drew some rapid wireframes of
-                            features used by both
-                            users. Then, I conducted user testing on my teammates and noted their comments
-                            as captions under
-                            each wireframe. </p>
+                        <h2>Wireframing and Testing</h2>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/feed_wire.jpg" alt="Lofi Feeder" class="img-fluid space-bottom">
-                </figure>
-                <figure> <img src="../img/feedme/eat_wire.jpg" alt="Lofi Eater" class="img-fluid space-bottom">
-                </figure>
+                <div class="row space-top">
+                    <div class="col-md-6">
+                        <figure> <img src="../img/feedme/feed_wire.jpg" alt="Lofi Feeder"
+                                class="img-fluid space-bottom">
+                        </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <figure> <img src="../img/feedme/eat_wire.jpg" alt="Lofi Eater" class="img-fluid space-bottom">
+                        </figure>
+                    </div>
+                </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Branding</h1>
-                        <p class="proj-body"> Moreover, my decision on visual style was greatly influenced
-                            by the
-                            <strong>collaborative aspect</strong> of this mobile web app. Warm colors evoke
-                            the <strong>joy
-                                of eating</strong>, so orange and yellow represent the two users
-                            respectively. The gradient
-                            symbolizes the collaboration between the two users when a meal is claimed.
+                        <h1>Initial Design</h1>
+                        <p class="proj-body">After several rounds of wireframe critiques, I moved on to mocking up the
+                            high-fidelity flow of our <strong>prototype 1.0</strong>. The motivation behind the visual design was to represent the students' collaboration with a warm gradient and associate the app
+                            with an appetizing feeling.
                         </p>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/styleGuide.jpg" alt="Branding" class="img-fluid space-bottom">
+                <figure> <img src="../img/feedme/feedme-old.jpg" alt="Old Design" class="img-fluid space-bottom">
                 </figure>
 
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s7" class="section">Hi-Fi Prototypes</h1>
-                        <p class="proj-body"> After a few more iterations, I settled on the final design and
-                            the main
-                            functionalities.
-                        </p>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <h4>1. Sharing a meal </h4>
-                        <p class="proj-body">The feeder will write their location, time frame, and intro
-                            message. A meal
-                            will show up on the Eater's explore page.
-                        </p>
-                    </div>
-                    <div class="col-md-4 ml-auto mr-auto">
-                        <div class="proj-mobile">
-                            <img src="../img/feedme/1feed.gif" alt="Step1"></div>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <h4>2. Claiming a meal</h4>
-                        <p class="proj-body">The eater can scroll through the carousel and choose a
-                            Feeder. Then, they
-                            can
-                            directly message each other.
-                        </p>
-                    </div>
-                    <div class="col-md-4 ml-auto mr-auto">
-                        <div class="proj-mobile">
-                            <img src="../img/feedme/2claim.gif" alt="Step2"></div>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <h4>3. Swipe confirmation </h4>
-                        <p class="proj-body">The feeder will confirm that they swiped for the Eater. A
-                            congratulatory
-                            message will be shown.
-                        </p>
-                    </div>
-                    <div class="col-md-4 ml-auto mr-auto">
-                        <div class="proj-mobile">
-                            <img src="../img/feedme/3confirm.gif" alt="Step3"></div>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <h4>4. Payment confirmation
-                        </h4>
-                        <p class="proj-body">The eater will confirm their payment and the money from the
-                            transaction
-                            will be
-                            donated to a local food bank.</p>
-                    </div>
-                    <div class="col-md-4 ml-auto mr-auto">
-                        <div class="proj-mobile">
-                            <img src="../img/feedme/4confirm2.gif" alt="Step4"></div>
-                    </div>
-                </div>
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s8" class="section">Challenges</h1>
-                        <h4 class="space-top">1. Developing the Front-End</h4>
-                        <p class="proj-body">After iterating through a few designs and doing user testing on
-                            my teammates, I prioritized functionality and a seamless UX over visual design. We
-                            used Flask to tie the front-end to the PostgreSQL and Python back-end.</p>
-                        <h5 class="proj-link space-bottom"><a href="https://github.com/mirandamo/feed-me-brown"
-                                target="_blank"><i class="fab fa-github-alt"></i>&nbsp; &nbsp; Check out our
-                                Github
-                                Repository!</a></h5>
-
-                        <h4 class="space-top">2. Implementing Security Measures</h4>
-                        <p class="proj-body">We implemented the login and post/claim meals user flows. However,
-                            due to time constraints, we couldn't
-                            develop a
-                            financial transaction platform with the Stripe API and a messaging function with
-                            the Twilio API.
+                        <h1>Redesign</h1>
+                        <p class="proj-body">Like all hackathon projects, Feed Me was done in a 3-day time crunch, so I
+                            took the initiative to redesign its experience and branding. In the new design, when a meal
+                            is claimed, the interface transitions from cool to warm colors to represent the
+                            growing <strong>warmth of eating and joy in helping others</strong>. I also focused on constructing a <strong>clearer navigation</strong> and <strong>visual hierarchy</strong>. 
                         </p>
-                        <h5 class="proj-link space-bottom"><a href="https://feed-me-brown.herokuapp.com/"
-                                target="_blank"><i class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out our
-                                deployed web app!</a></h5>
                     </div>
                 </div>
+                <figure> <img src="../img/feedme/feedme-new.jpg" alt="New Design" class="img-fluid space-bottom">
+                </figure>
+                <figure> <img src="../img/feedme/feedme-brand.jpg" alt="Branding" class="img-fluid space-bottom">
+                </figure>
+
+
+
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s9" class="section">What's Next? </h1>
-                        <p class="proj-body"> We are currently working on prototype 2.0, aiming to implement
-                            a functional
-                            messaging and financial platform while addressing the aforementioned ethical
-                            concerns.</p>
+                        <h1 id="s5" class="section">Final Design</h1>
+                        <p class="proj-body"> After a long journey, Feed Me is revamped!
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Decision 1</p>
+                        <h1>Quick Sharing</h1>
+                        <p class="proj-body">Only 3 steps to share a meal. Users can simply go about their lunch schedule until the Buyer calls them. 
+                        </p>
+                    </div>
+                    <div class="col-md-3 ml-auto mr-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/sharing.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Decision 2</p>
+                        <h1>Simple and Secure</h1>
+                        <p class="proj-body">Users are automatically registered with their Brown email addresses and can
+                            pay with their Bear Bucks. No bank cards required!
+                        </p>
+                    </div>
+                    <div class="col-md-3 ml-auto mr-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/secure.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Decision 3</p>
+                        <h1>Making a social impact</h1>
+                        <p class="proj-body">For every $5 meal bought, the Feeder earns $3 and donates $2 to the RI
+                            Community Food Pantry. Win-win for the student and local community.
+                        </p>
+                    </div>
+                    <div class="col-md-3 ml-auto mr-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/donation.mp4" type="video/mp4">
+                            </video></div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Decision 4</p>
+                        <h1>All-inclusive</h1>
+                        <p class="proj-body">The Giver can choose to provide a free meal for low-income students. The
+                            meal’s full $5 cost will be donated to charity if bought by a regular student. Win-win-win
+                            for the student, local residents, and the school community!
+                        </p>
+                    </div>
+                    <div class="col-md-3 ml-auto mr-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/lowincome.mp4" type="video/mp4">
+                            </video></div>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Try out the final prototype!</h1>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                            <div class="iframe-container">
+                                <iframe style="border: none;" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FFWkD5hSEU5EB4FNn7E4yPb%2FPortfolio%3Fnode-id%3D1749%253A0%26scaling%3Dscale-down"
+                                allowfullscreen></iframe></div>
+                        
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Impact</h1>
+                        <p class="proj-body">Despite facing many technical challenges, my teammates and I felt a great
+                            sense
+                            of pride and accomplishment in our ability to create a program that people could use in only
+                            three days.</p>
+                        <figure> <img src="../img/feedme/feedme-impact.jpg" alt="Feed Me Impact"
+                                class="img-fluid space-bottom">
+                        </figure>
+                    </div>
+                </div>
 
-                        <p class="proj-body"> For future UX improvements, I would look into:
+
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1 id="s6" class="section">What's Next? </h1>
+                        <p class="proj-body"> We are currently working on prototype 2.0, aiming to launch our app in
+                            2021.
+                        </p>
+
+                        <p class="proj-body"> For future <strong>design improvements</strong>, I would look into:
                         </p>
                         <ul class="proj-body">
-                            <li>Represent accomplishments through visual rewards, such as badges
+                            <li>Interactive onboarding experience
                             </li>
-                            <li>Design onboarding pages to help users quickly navigate the web app
+                            <li>Achievement badges to create more incentive and fun
                             </li>
-                            <li>Perform more usability tests to further enhance user experience
-                            </li>
-                            <li>Implement a public bulletin for people to share their thoughts and attitudes
-                                towards the
-                                meal plan. This can be used to potentially advise the school administration
-                                and stop
-                                enforced meal plan for sophomores.
+                            <li>Testing, testing, and more testing!
                             </li>
                         </ul>
 
-                        <p class="proj-body"> Despite not having a fully implemented prototype, my teammates
-                            and I felt a
-                            great sense of <strong>pride and accomplishment</strong> to create a program
-                            that people could
-                            tangibly use in only three days.
+                        <p class="proj-body"> I also learned a lot working in a team with only SWEs:
                         </p>
+                        <ul class="proj-body">
+                            <li><strong>Set the scope of the project!</strong> Focus on the essential 1-2
+                                functionalities
+                                and use research to support why those are the priorities. Use a Product Requirement
+                                Description so everyone is on the same page.
+                            </li>
+                            <li><strong>Holistic experience over aesthetics.</strong> All the time!
+                            </li>
+                        </ul>
 
                         <p class="proj-body"> If you are interested in chatting more about my work, I would
                             love to hear
-                            from you. Otherwise, thanks for reading! 
+                            from you. Otherwise, thanks for reading!
                         </p>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+
     <!-- Footer -->
-    <footer class=" container py-5">
+    <footer class="container py-5">
         <div class="row">
             <div class="col-sm-8">
                 <p class="mb-1">&copy;
