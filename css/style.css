@@ -140,6 +140,7 @@ a, a:hover {
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin: .5rem 0;
     font-weight: var( --font-bold);
+    line-height: 1.5em;
 }
 
 .headline {
@@ -150,7 +151,6 @@ a, a:hover {
 
 .headline-title {
     font-size: 3.3rem;
-    line-height: 1.2em;
     font-weight: var(--font-bold);
     padding-bottom: 0.3em;
 }
