@@ -1,116 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Light.eot');
-    src: local('Calibre Light'), local('Calibre-Light'), url('Calibre-Light.eot?#iefix') format('embedded-opentype'), url('Calibre-Light.woff2') format('woff2'), url('Calibre-Light.woff') format('woff'), url('Calibre-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Thin.eot');
-    src: local('Calibre Thin'), local('Calibre-Thin'), url('Calibre-Thin.eot?#iefix') format('embedded-opentype'), url('Calibre-Thin.woff2') format('woff2'), url('Calibre-Thin.woff') format('woff'), url('Calibre-Thin.ttf') format('truetype');
-    font-weight: 100;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-LightItalic.eot');
-    src: local('Calibre Light Italic'), local('Calibre-LightItalic'), url('Calibre-LightItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-LightItalic.woff2') format('woff2'), url('Calibre-LightItalic.woff') format('woff'), url('Calibre-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-MediumItalic.eot');
-    src: local('Calibre Medium Italic'), local('Calibre-MediumItalic'), url('Calibre-MediumItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-MediumItalic.woff2') format('woff2'), url('Calibre-MediumItalic.woff') format('woff'), url('Calibre-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-BlackItalic.eot');
-    src: local('Calibre Black Italic'), local('Calibre-BlackItalic'), url('Calibre-BlackItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-BlackItalic.woff2') format('woff2'), url('Calibre-BlackItalic.woff') format('woff'), url('Calibre-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Semibold.eot');
-    src: local('Calibre Semibold'), local('Calibre-Semibold'), url('Calibre-Semibold.eot?#iefix') format('embedded-opentype'), url('Calibre-Semibold.woff2') format('woff2'), url('Calibre-Semibold.woff') format('woff'), url('Calibre-Semibold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Black.eot');
-    src: local('Calibre Black'), local('Calibre-Black'), url('Calibre-Black.eot?#iefix') format('embedded-opentype'), url('Calibre-Black.woff2') format('woff2'), url('Calibre-Black.woff') format('woff'), url('Calibre-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Medium.eot');
-    src: local('Calibre Medium'), local('Calibre-Medium'), url('Calibre-Medium.eot?#iefix') format('embedded-opentype'), url('Calibre-Medium.woff2') format('woff2'), url('Calibre-Medium.woff') format('woff'), url('Calibre-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-RegularItalic.eot');
-    src: local('Calibre Regular Italic'), local('Calibre-RegularItalic'), url('Calibre-RegularItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-RegularItalic.woff2') format('woff2'), url('Calibre-RegularItalic.woff') format('woff'), url('Calibre-RegularItalic.ttf') format('truetype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-BoldItalic.eot');
-    src: local('Calibre Bold Italic'), local('Calibre-BoldItalic'), url('Calibre-BoldItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-BoldItalic.woff2') format('woff2'), url('Calibre-BoldItalic.woff') format('woff'), url('Calibre-BoldItalic.ttf') format('truetype');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Bold.eot');
-    src: local('Calibre Bold'), local('Calibre-Bold'), url('Calibre-Bold.eot?#iefix') format('embedded-opentype'), url('Calibre-Bold.woff2') format('woff2'), url('Calibre-Bold.woff') format('woff'), url('Calibre-Bold.ttf') format('truetype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-Regular.eot');
-    src: local('Calibre'), local('Calibre-Regular'), url('Calibre-Regular.eot?#iefix') format('embedded-opentype'), url('Calibre-Regular.woff2') format('woff2'), url('Calibre-Regular.woff') format('woff'), url('Calibre-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-SemiboldItalic.eot');
-    src: local('Calibre Semibold Italic'), local('Calibre-SemiboldItalic'), url('Calibre-SemiboldItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-SemiboldItalic.woff2') format('woff2'), url('Calibre-SemiboldItalic.woff') format('woff'), url('Calibre-SemiboldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Calibre';
-    src: url('Calibre-ThinItalic.eot');
-    src: local('Calibre Thin Italic'), local('Calibre-ThinItalic'), url('Calibre-ThinItalic.eot?#iefix') format('embedded-opentype'), url('Calibre-ThinItalic.woff2') format('woff2'), url('Calibre-ThinItalic.woff') format('woff'), url('Calibre-ThinItalic.ttf') format('truetype');
-    font-weight: 100;
-    font-style: italic;
-}
 
 html {
     scroll-behavior: smooth;
@@ -122,15 +11,14 @@ html {
     --text-grey: #737373;
     --text-light: #CCCCCC;
     --transition-time: all 0.2s ease-in-out;
-    --font-bold: 600;
+    --font-bold: 700;
 }
 
 body {
-    font-family: 'Calibre', sans-serif;
+    font-family: 'Inter', sans-serif;
     color: var( --text-dark);
-    font-size: 22px;
+    font-size: 18px;
 }
-
 
 /*/////////////////////
 Globals
@@ -219,8 +107,7 @@ Globals
     max-width: 1500px;
 }
 
-a,
-a:hover {
+a, a:hover {
     text-decoration: none;
     color: inherit;
     cursor: pointer;
@@ -250,18 +137,7 @@ a:hover {
     margin-bottom: 10em;
 }
 
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
     margin: .5rem 0;
     font-weight: var( --font-bold);
 }
@@ -273,9 +149,10 @@ h6 {
 }
 
 .headline-title {
-    font-size: 4rem;
-    line-height: 1.1em;
+    font-size: 3.3rem;
+    line-height: 1.2em;
     font-weight: var(--font-bold);
+    padding-bottom: 0.3em;
 }
 
 .display-3 {
@@ -290,7 +167,6 @@ h6 {
 .corner-round {
     border-radius: 50px;
 }
-
 
 /*/////////////////////
 Navigation
@@ -308,8 +184,7 @@ Navigation
     opacity: 0.6;
 }
 
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-brand {
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
     color: var(--text-dark);
     font-weight: var( --font-bold);
     font-size: 1em;
@@ -341,7 +216,6 @@ Navigation
 .navbar {
     padding: 0;
 }
-
 
 /*/////////////////////
 Home
@@ -407,7 +281,7 @@ span-color {
     background-color: rgba(0, 184, 148, 0.05);
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
-    padding: .5em .8em .1em .8em;
+    padding: .5em .8em;
     font-weight: 400;
 }
 
@@ -434,10 +308,10 @@ span-color {
     width: 500px;
 }
 
-
 /*/////////////////////
 About
 ///////////////////////*/
+
 .fa {
     padding: 10px 20px 10px 0;
     font-size: 22px;
@@ -456,7 +330,6 @@ About
     background-color: var(--primary-color);
 }
 
-
 /*/////////////////////
 Project
 ///////////////////////*/
@@ -466,7 +339,7 @@ Project
 }
 
 .proj-body {
-    line-height: 1.5em;
+    line-height: 2em;
     padding-bottom: 20px;
     color: var(--text-grey);
 }
@@ -522,6 +395,11 @@ strong {
     opacity: 0.6;
 }
 
+.proj-dvb {
+    font-weight: var(--font-bold) !important;
+    padding-bottom: 0.1em;
+}
+
 .proj-phone {
     position: relative;
     padding-bottom: 177%;
@@ -534,8 +412,7 @@ video {
     width: 100%;
 }
 
-.proj-phone iframe,
-.proj-video iframe{
+.proj-phone iframe, .proj-video iframe {
     position: absolute;
     top: 0;
     left: 0;
@@ -614,7 +491,6 @@ video {
         padding-top: 230%
     }
 }
-
 
 /*/////////////////////
 Media queries
