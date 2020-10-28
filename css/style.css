@@ -150,13 +150,14 @@ a, a:hover {
 }
 
 .headline-title {
-    font-size: 3.3rem;
+    font-size: 2.7rem;
     font-weight: var(--font-bold);
     padding-bottom: 0.3em;
+    line-height: 1.3em;
 }
 
 .display-3 {
-    font-size: 4rem;
+    font-size: 2.7rem;
     line-height: 1.1em;
 }
 
@@ -486,15 +487,15 @@ video {
     width: 100%
 }
 
-@media (max-width: 812px) {
-    .iframe-container {
-        padding-top: 230%
-    }
-}
-
 /*/////////////////////
 Media queries
 ///////////////////////*/
+
+@media only screen and (min-width: 2000px) {
+    .container {
+        max-width: 90vw;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .cover-img {
@@ -524,6 +525,9 @@ Media queries
     .headline-title, .display-3 {
         font-size: 2.5rem;
     }
+    .iframe-container {
+        padding-top: 230%
+    }
 }
 
 @media only screen and (max-width: 767px) {
@@ -543,10 +547,6 @@ Media queries
         width: 300px;
     }
     .proj-phone-vid {
-        height: 70vh;
-    }
-    video {
-        width: auto;
-        height: 100%;
+        width: 100%;
     }
 }

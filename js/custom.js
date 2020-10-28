@@ -7,7 +7,6 @@ var wh = win.height();
 $(document).ready(function () {
     fadeInPage();
     sidebar();
-    offsetScroll();
 });
 
 function scrollSmoothTo(elementId) {
