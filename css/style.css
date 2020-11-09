@@ -121,8 +121,16 @@ a, a:hover {
     margin-bottom: 2em;
 }
 
+.space-top-lg {
+    padding-top: 10em;
+}
+
 .space-md {
     padding: 4em 0;
+}
+
+.space-lg {
+    padding: 8em 0;
 }
 
 .space-sm {
@@ -143,17 +151,18 @@ a, a:hover {
     line-height: 1.5em;
 }
 
-.headline {
-    margin-bottom: 80px;
-    margin-top: 80px;
-    padding: 0 1rem;
-}
-
 .headline-title {
     font-size: 2.7rem;
     font-weight: var(--font-bold);
     padding-bottom: 0.3em;
     line-height: 1.3em;
+}
+
+.headline-big {
+    font-size: 4rem;
+    font-weight: var(--font-bold);
+    padding-bottom: 0.2em;
+    line-height: 1.2em;
 }
 
 .display-3 {
@@ -233,7 +242,7 @@ span-color {
 
 .text-next {
     display: block;
-    color: var(--text-light);
+    color: var(--text-dark);
     -webkit-transition: var(--transition-time);
     -moz-transition: var(--transition-time);
     -o-transition: var(--transition-time);
@@ -241,7 +250,7 @@ span-color {
 }
 
 .text-next:hover {
-    color: var(--text-dark);
+    opacity: 0.6;
 }
 
 .icon-size {
@@ -284,6 +293,7 @@ span-color {
     border: 1px solid var(--primary-color);
     padding: .5em .8em;
     font-weight: 400;
+    margin-bottom: .5em;
 }
 
 .card {
@@ -324,7 +334,7 @@ About
     -moz-transition: var(--transition-time);
     -o-transition: var(--transition-time);
     transition: var(--transition-time);
-    opacity: 0.8;
+    opacity: 0.6;
 }
 
 .progress-bg {
@@ -385,20 +395,16 @@ strong {
 
 .proj-link {
     color: var(--primary-color);
-    -webkit-transition: var(--transition-time);
-    -moz-transition: var(--transition-time);
-    -o-transition: var(--transition-time);
-    transition: var(--transition-time);
-}
-
-.proj-link:hover {
-    color: var(--primary-color);
-    opacity: 0.6;
 }
 
 .proj-dvb {
     font-weight: var(--font-bold) !important;
     padding-bottom: 0.1em;
+}
+
+.proj-link:hover {
+    color: var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .proj-phone {
@@ -491,12 +497,6 @@ video {
 Media queries
 ///////////////////////*/
 
-@media only screen and (min-width: 2000px) {
-    .container {
-        max-width: 90vw;
-    }
-}
-
 @media only screen and (max-width: 1200px) {
     .cover-img {
         width: 400px;
@@ -522,7 +522,7 @@ Media queries
     .cover-img {
         width: 400px;
     }
-    .headline-title, .display-3 {
+    .headline-title, .display-3, .headline-big {
         font-size: 2.5rem;
     }
     .iframe-container {
