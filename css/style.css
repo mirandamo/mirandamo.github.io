@@ -24,6 +24,13 @@ body {
 Globals
 ///////////////////////*/
 
+hr {
+    border: none;
+    height: 1px;
+    color: var(--text-grey);
+    background-color: var(--text-grey);
+}
+
 #fader {
     position: fixed;
     top: 0;
