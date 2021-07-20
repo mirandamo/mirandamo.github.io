@@ -173,7 +173,7 @@ a, a:hover {
 }
 
 .display-3 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     line-height: 1.1em;
 }
 
@@ -257,7 +257,8 @@ span-color {
 }
 
 .text-next:hover {
-    opacity: 0.6;
+    color: var(--primary-color);
+    /* opacity: 0.6; */
 }
 
 .icon-size {
@@ -499,6 +500,12 @@ video {
     top: 0;
     width: 100%
 }
+
+.frame-border {
+	border: 2px solid #f2f2f2;
+}
+
+
 
 /*/////////////////////
 Media queries
