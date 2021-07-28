@@ -258,7 +258,6 @@ span-color {
 
 .text-next:hover {
     color: var(--primary-color);
-    /* opacity: 0.6; */
 }
 
 .icon-size {
@@ -363,9 +362,18 @@ Project
     color: var(--text-grey);
 }
 
+.proj-body-box {
+    border: 3px solid var(--primary-color);
+    padding: 1.1em;
+    border-radius: 10px;
+    color: var(--primary-color);
+    margin: 3em 0;
+}
+
 .proj-caption {
     padding: 1.5em 0;
     text-align: center;
+    color: var(--text-grey);
 }
 
 .proj-quote {
@@ -389,10 +397,6 @@ strong {
 
 .bg-grey {
     background-color: #F2F2F2;
-}
-
-.bg-yellow {
-    background-color: #ffe9d4;
 }
 
 .proj-block {
@@ -443,49 +447,6 @@ video {
     padding-top: 56.25%;
 }
 
-.proj-problem {
-    font-weight: 400;
-    margin-top: 30px;
-}
-
-.proj-btn {
-    background-color: #EEEEEE;
-    padding: 1em 2.5em;
-    border-radius: 15px;
-    color: var(--text-dark)444;
-}
-
-.proj-btn:hover {
-    opacity: 0.8;
-    -webkit-transition: var(--transition-time);
-    -moz-transition: var(--transition-time);
-    -o-transition: var(--transition-time);
-    transition: var(--transition-time);
-    color: var(--primary-color);
-}
-
-.proj-body-box {
-    border: 3px solid var(--primary-color);
-    padding: 1.1em;
-    border-radius: 10px;
-    color: var(--primary-color);
-    margin: 3em 0;
-}
-
-.proj-btn-doc {
-    background-color: #FFFFFF;
-    padding: 0.5em 2em;
-    border-radius: 15px;
-    color: var(--primary-color);
-    border-color: var(--primary-color);
-    border-width: 3px;
-}
-
-.proj-btn-doc:hover {
-    background-color: var(--primary-color);
-    color: #FFFFFF;
-}
-
 .iframe-container {
     overflow: hidden;
     padding-top: 100%;
@@ -501,11 +462,9 @@ video {
     width: 100%
 }
 
-.frame-border {
+.proj-border {
 	border: 2px solid #f2f2f2;
 }
-
-
 
 /*/////////////////////
 Media queries

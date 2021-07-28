@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -13,7 +12,6 @@
     <script src="https://kit.fontawesome.com/67f90579cc.js" crossorigin="anonymous"></script>
     <link href="../css/style.css" rel="stylesheet">
 </head>
-
 <body>
     <svg id="fader"></svg>
     <div class="container">
@@ -43,7 +41,6 @@
                     <div id="tags"> </div>
                 </div>
             </div>
-
             <div class="col-lg-10 ml-auto col-sm-12">
                 <div class="space-md">
                     <div class="headline-content">
@@ -55,19 +52,16 @@
                             <div class="small-text">Role</div>
                             <p>UX Design Intern</p>
                         </div>
-
                         <div class="col-md-3">
                             <div class="small-text">Duration</div>
                             <p>Dec 2020 - Jun 2021</p>
                         </div>
-
                         <div class="col-md-3">
                             <div class="small-text">Team</div>
                             <p>Azure Apps and Infrastructure Team, <a
                                     href="https://www.linkedin.com/in/yuan-shao-b4724aa/" class="proj-link"
                                     target="_blank">Michael Shao (Manager)</a></p>
                         </div>
-
                         <div class="col-md-3">
                             <div class="small-text">Skills</div>
                             <span class="badge proj-label">UI/UX Design</span>
@@ -76,11 +70,9 @@
                         </div>
                     </div>
                 </div>
-
-                <figure> <img src="../img/microsoft/microsoft-reflection.jpg" alt="Microsoft Reflection"
+                <figure> <img src="../img/microsoft/microsoft-cover.jpg" alt="Microsoft Reflection"
                         class="img-fluid space-bottom">
                 </figure>
-
                 <div class="row space-lg">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <div class="row">
@@ -97,7 +89,6 @@
                                     <a class="proj-link" onclick="scrollSmoothTo('s5')">Jump to the final designs
                                         here!</a>
                                 </p>
-
                             </div>
                         </div>
                         <h4>Impact</h4>
@@ -115,165 +106,262 @@
                             free demo can be requested when you contact our customer engineers at
                             cloudcrew@microsoft.com.
                         </p>
-                        <p class="proj-body">Operational communication is time-consuming, and a FAQ page is often not
-                            sufficient. Therefore, we designed <strong>Bot Portal</strong>, a streamlined chatbot builder that is more
-                            compact than Power Virtual Agents, a web app that builds complex conversation flows.
-                            The team has already built a beta version of Bot Portal, and I was responsible for creating
-                            the next iteration. </p>
-                        <p class="proj-body">As the only designer on the team, <strong>I led the web app's end-to-end UI/UX
-                                design</strong>. I was partnered with another senior engineer who acted as the PM. I also redesigned the messaging and security controls, but this case study focuses
-                            on <strong>building a conversation flow</strong>. </p>
+                        <p class="proj-body">Internal operational communication is time-consuming. Therefore, we
+                            designed <strong>Bot Portal</strong>, a streamlined chatbot builder that is more compact
+                            than Power Virtual Agents, a web app that builds complex chatbot conversation flows.</p>
+                        <p class="proj-body">As the only designer on the team, <strong>I led the web app's end-to-end
+                                UI/UX
+                                redesign</strong>. I was partnered with another senior engineer who acted as the PM and
+                            provided me with requirements to validate. Ultimately, some of my designs may only serve as
+                            a visionary demonstration, but the essential features are set to be launched in Q4 2021.</p>
                     </div>
                 </div>
-
                 <figure> <img src="../img/microsoft/microsoft-product.jpg" alt="Microsoft Solution"
                         class="img-fluid space-bottom">
                 </figure>
-
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1 id="s2" class="section">Problem</h1>
-                        <p class="proj-body"> How do we make the chatbot builder accessible for users to <strong>create simple flows</strong>?</p>
-                        <p class="proj-body"> Through <strong>user interviews</strong>, I discovered some difficulties
-                            of an operational manager trying to input information into the current system. </p>
+                        <p class="proj-body"> How do we make the chatbot builder accessible for users to <strong>create
+                                simple flows</strong>?</p>
+                        <p class="proj-body"> Before diving into the process, let me clarify some keywords that will
+                            explain design choices going forward: </p>
                     </div>
                 </div>
-
-                <div class="row space-bottom">
+                <figure> <img src="../img/microsoft/microsoft-vocab.jpg" alt="Chatbot Vocabulary"
+                        class="img-fluid space-bottom">
+                </figure>
+                <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Pain Points</h2>
+                        <h1>Pain Points</h1>
+                        <p class="proj-body"> Through <strong>user interviews</strong>, the senior engineer and I
+                            discovered an operations manager's top difficulties when building a conversation flow.</p>
                         <ol class="proj-body">
-                            <li><strong>Choice Overload</strong>: There are 14 response nodes for users to choose from,
-                                easily overwhelming users building simple flows with few responses.
-                            </li>
-                            <li><strong>Unintuitive Interaction</strong>: The user must build flows by creating new
-                                if/or/and statements, then using indices to represent multiple choices. Tldr. It's too
+                            <li><strong>Unintuitive interaction</strong>: The user must build flows by creating new
+                                if/or/and statements and use indices to represent multiple choices. Tldr. It's too
                                 hard to use.
                             </li>
                             <li><strong>Interrupted flows</strong>: Text and file editors all exist as modals currently,
                                 which often interrupts the user's actions and disables the main content.
                             </li>
-                            <li><strong>Repetitive controls</strong>: Same response nodes have to be
-                                recreated each time, which is time-consuming. </li>
-                            <li><strong>Lack of brand identity</strong>: The look doesn't feel "Microsoft."
+                            <li><strong>Choice overload</strong>: There are 14 response nodes for users to choose from,
+                                easily overwhelming users building simple flows with less than five responses.
+                            </li>
+                            <li><strong>Redundant workflows</strong>: It is time-consuming to recreate the same nodes.
                             </li>
                         </ol>
                     </div>
                 </div>
-                <div class="row space-md bg-grey">
+                <div class="row space-md bg-grey space-bottom-lg">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1 id="s3" class="section">Project Goals</h1>
                         <p class="proj-body">So, how do we streamline the chatbot-building experience?
                         </p>
-                        <ol class="proj-body">
+                        <ol class="proj-body p-0">
                             <li>Create <strong>intuitive</strong> flow-building interactions
                             </li>
                             <li><strong>Prioritize frequent actions</strong> and restructure information architecture
                             </li>
                             <li>Enable users to <strong>save common nodes</strong>
                             </li>
-                            <li>Underscore <strong>Microsoft's brand</strong> identity
                             </li>
                         </ol>
                     </div>
                 </div>
-
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s4" class="section">Process</h1>
-                        <h2 class="space-top">Information Architecture</h2>
-                        <p class="proj-body">Through <strong>card sorting</strong>, I restructured the web app's main
-                            navigation to prioritize the chatbot builder and decrease security
-                            controls' visual importance. Within the chatbot builder, I conducted card sorting again and
-                            categorized actions under user motivations, which helped me <strong>reduce the
-                                action nodes from 14 to 7 and resolve choice overload</strong>.
+                        <h1 id="s4" class="section">Solution</h1>
+                        <p class="proj-body">The key features are summarized in the Final Designs section. <a
+                                class="proj-link" onclick="scrollSmoothTo('s5')">Jump to the final designs
+                                here!</a></p>
+                        <h1 class="space-top">Goal 1: Create intuitive interactions</h1>
+                        <h3 class="space-top">Tree Structure</h3>
+                        <p class="proj-body">The current structure imitates code, requiring the user to initiate loops
+                            and add if statements. Referring to <strong>user feedback</strong> that wants a clearer
+                            display, I changed it to a vertical tree diagram to better show the sequence of events.
                         </p>
                     </div>
                 </div>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Common UX Patterns</h2>
-                        <p class="proj-body">By performing <strong>competitive analysis</strong>, the senior engineer and I decided on a
-                            drag-and-drop interaction with a tree structure display. Users can build a conversation quickly and understand the flow clearly from the tree structure. </p>
-                    </div>
-                </div>
-
-                <div class="row space-bottom">
-                    <div class="col-md-4">
-                        <video muted autoplay loop class="frame-border">
-                            <source src="../img/microsoft/microsoft-competitor1.mp4">
-                            Sorry, your browser does not support the video tag.
-                        </video>
-                        <p class="proj-caption"><strong>Before</strong>: Code-like structure add buttons</p>
-                    </div>
-                    <div class="col-md-4">
-                        <video muted autoplay loop class="frame-border">
-                            <source src="../img/microsoft/microsoft-competitor2.mp4">
-                            Sorry, your browser does not support the video tag.
-                        </video>
-                        <p class="proj-caption"><strong>Reference</strong>: Adding onto branches</p>
-                    </div>
-                    <div class="col-md-4">
-                        <video muted autoplay loop class="frame-border">
-                            <source src="../img/microsoft/microsoft-competitor3.mp4">
-                            Sorry, your browser does not support the video tag.
-                        </video>
-                        <p class="proj-caption"><strong>After</strong>: Drag and drop!</p>
-                    </div>
-                </div>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Exploring and Testing</h2>
-                        <p class="proj-body">I created multiple interactive prototypes to test edge cases and compound
-                            use cases. This guided our critiques and evaluation process, which also prompted <strong>new
-                                features</strong> to be included in the final version. </p>
-                    </div>
-                </div>
-
                 <div class="row space-bottom">
                     <div class="col-md-6">
-                        <video muted autoplay loop class="frame-border">
+                        <figure> <img src="../img/microsoft/microsoft-tree-1.jpg" alt="Tree Structure 1"
+                                class="img-fluid proj-border">
+                        </figure>
+                        <p class="proj-caption"><strong>Before</strong>: Code structure</p>
+                    </div>
+                    <div class="col-md-6">
+                        <figure> <img src="../img/microsoft/microsoft-tree-2.jpg" alt="Tree Structure 2"
+                                class="img-fluid proj-border">
+                        </figure>
+                        <p class="proj-caption"><strong>After</strong>: Tree structure - clearer display of the same
+                            content on the left</p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h3>Drag and Drop Interaction</h3>
+                        <p class="proj-body">The current implementation requires users to use small add buttons to
+                            connect a response node. However, according to Fitt's law, the small targets are difficult
+                            for fast, frequent actions. </p>
+                        <p class="proj-body">Therefore, by performing <strong>competitive analysis</strong> on similar
+                            products, the senior engineer and I decided on a drag-and-drop interaction. Users can build
+                            a conversation flow with little to no training faster. </p>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-md-6">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-drag1.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>Before</strong>: Small add buttons</p>
+                    </div>
+                    <div class="col-md-6">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-drag2.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>After</strong>: Drag and drop</p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h3>Sidebar</h3>
+                        <p class="proj-body">To reduce the use of modals that blocks information on the screen, I
+                            introduced the sidebar. It effectively hides complicated actions and displays more options
+                            on one screen.</p>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-md-6">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-sidebar-1.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>Before</strong>: Modal</p>
+                    </div>
+                    <div class="col-md-6">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-sidebar-2.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>After</strong>: Sidebar - condenses the same content on the left
+                        </p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Goal 2: Prioritize frequent actions</h1>
+                        <h3 class="space-top">Reducing Response Nodes</h3>
+                        <p class="proj-body">Through <strong>card sorting</strong>, I categorized actions under shared
+                            user motivations, which helped me combine response nodes. I <strong>reduced the number of
+                                choices by 50%</strong>, from 14 to 7, with the most frequently used "Show a message"
+                            node at the top. </p>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-md-6">
+                        <figure> <img src="../img/microsoft/microsoft-choices-1.jpg" alt="Choices 1" class="img-fluid">
+                        </figure>
+                        <p class="proj-caption"><strong>Before</strong>: 14 choices - too many!</p>
+                    </div>
+                    <div class="col-md-6">
+                        <figure> <img src="../img/microsoft/microsoft-choices-2.jpg" alt="Choices 2"
+                                class="img-fluid proj-border">
+                        </figure>
+                        <p class="proj-caption"><strong>After</strong>: 7 choices</p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Goal 3: Save common nodes</h1>
+                        <h3 class="space-top">Copy and Paste vs Global nodes</h3>
+                        <p class="proj-body">The current implementation copies and pastes a response node directly into
+                            the same intent, but <strong>user feedback</strong> states that they also want to paste into
+                            other intents and edit all copies of the same node at once. </p>
+                        <p class="proj-body">Thus, I came up with the "<strong>Copy to clipboard</strong>" idea,
+                            allowing users to save common nodes to a clipboard that is accessible across all intents.
+                            However, user feedback shows that there are details in common nodes that are often updated,
+                            such as system version ids when the user asks the chatbot about IT-related topics. </p>
+                        <p class="proj-body">Consequently, I prototyped a "<strong>Global nodes</strong>" feature, where
+                            users can save nodes as global nodes. When they edit the master instance, all instances of
+                            this node in different intents are also updated. This is the iteration approved by the
+                            senior engineer! </p>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-md-4">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-copy-1.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>Before</strong>: Copy and paste into the same intent</p>
+                    </div>
+                    <div class="col-md-4">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-copy-2.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>1st Iteration</strong>: Copy to clipboard, accessible to all
+                            intents</p>
+                    </div>
+                    <div class="col-md-4">
+                        <video muted autoplay loop class="proj-border">
+                            <source src="../img/microsoft/microsoft-copy-3.mp4">
+                            Sorry, your browser does not support the video tag.
+                        </video>
+                        <p class="proj-caption"><strong>2nd Iteration</strong>: Global Nodes, editing master component
+                            can change instances</p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <h1>Exploring and Testing</h1>
+                        <p class="proj-body">I created multiple interactive prototypes to <strong>test edge cases and
+                                compound
+                                use cases</strong>. This guided our critiques and evaluation process, which also
+                            prompted <strong>new
+                                features</strong> that the senior engineer plan to include in future updates. </p>
+                    </div>
+                </div>
+                <div class="row space-bottom">
+                    <div class="col-md-6">
+                        <video muted autoplay loop class="proj-border">
                             <source src="../img/microsoft/microsoft-explore1.mp4">
                             Sorry, your browser does not support the video tag.
                         </video>
-                        <p class="proj-caption"><strong>New Feature 1</strong>: Adding customized intents, essentially creating new words for the Bot to recognize through the front-end</p>
+                        <p class="proj-caption"><strong>New Feature 1</strong>: Adding customized intents, essentially
+                            creating new words for the bot to recognize through the front-end</p>
                     </div>
                     <div class="col-md-6">
-                        <video muted autoplay loop class="frame-border">
+                        <video muted autoplay loop class="proj-border">
                             <source src="../img/microsoft/microsoft-explore2.mp4">
                             Sorry, your browser does not support the video tag.
                         </video>
                         <p class="proj-caption"><strong>New Feature 2</strong>: Storing multiple languages in each node,
-                            so that the Chatbot responses
-                            in the user question's language</p>
+                            so that the Chatbot responds in the user question's language</p>
                     </div>
                 </div>
-
-
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1>Visual Design</h1>
-                        <p class="proj-body">Since we decided to redesign the entire visual identity, I also provided a
-                            UI Style Guide to lay out all the components and their states, guiding front-end development in Angular. </p>
+                        <p class="proj-body">To underscore Microsoft's brand identity, my design system adheres to
+                            Microsoft's Fluent Design core principles. I also provided a UI Style Guide that lays out
+                            all the components and their states to guide the development process in Angular. </p>
                     </div>
                 </div>
-
                 <figure> <img src="../img/microsoft/microsoft-ui1.jpg" alt="UI Guide 1" class="img-fluid space-bottom">
                 </figure>
-
                 <figure> <img src="../img/microsoft/microsoft-ui2.jpg" alt="UI Guide 2" class="img-fluid space-bottom">
                 </figure>
-
                 <div class="row space-md">
                     <div class="col-8 ml-auto mr-auto">
-                        <h1 id="s5" class="section">Final Design</h1>
-                        <p class="proj-body"> Check out Bot Portal's major redesigns!
+                        <h1 id="s5" class="section">Final Designs</h1>
+                        <p class="proj-body"> Check out Bot Portal's major redesigns that will be implemented in Q4
+                            2021!
                         </p>
                     </div>
                 </div>
-
                 <div class="row space-md bg-grey mb-3">
                     <div class="col-11 ml-auto mr-auto">
                         <div class="row space-bottom">
@@ -294,25 +382,24 @@
                         </video>
                     </div>
                 </div>
-
                 <div class="row space-md bg-grey mb-3">
                     <div class="col-11 ml-auto mr-auto">
                         <div class="row space-bottom">
                             <div class="col-md-6">
                                 <p class="text-color-bold">Redesign 2</p>
-                                <h2>Test conversations easily</h2>
+                                <h2>Edit details in the sidebar</h2>
                             </div>
                             <div class="col-md-6">
-                                <p class="proj-body"> The testing window is made more compact as a new bottom right window and does not cover the main content. </p>
+                                <p class="proj-body">The sidebar effectively hides complicated
+                                    actions and creates a consistent place to edit global nodes.</p>
                             </div>
                         </div>
                         <video muted autoplay loop>
-                            <source src="../img/microsoft/microsoft-design2.mp4">
+                            <source src="../img/microsoft/microsoft-design4.mp4">
                             Sorry, your browser does not support the video tag.
                         </video>
                     </div>
                 </div>
-
                 <div class="row space-md bg-grey mb-3">
                     <div class="col-11 ml-auto mr-auto">
                         <div class="row space-bottom">
@@ -321,7 +408,8 @@
                                 <h2>Save common nodes</h2>
                             </div>
                             <div class="col-md-6">
-                                <p class="proj-body">Users no longer need to recreate the same nodes. They can save common nodes as "global nodes," and when they
+                                <p class="proj-body">Users no longer need to recreate the same nodes. They can save
+                                    common nodes as "global nodes," and when they
                                     edit the main instance in the Global Node Editor, instances of this node in
                                     all conversation flows are updated. </p>
                             </div>
@@ -332,27 +420,6 @@
                         </video>
                     </div>
                 </div>
-
-                <div class="row space-md bg-grey mb-3">
-                    <div class="col-11 ml-auto mr-auto">
-                        <div class="row space-bottom">
-                            <div class="col-md-6">
-                                <p class="text-color-bold">Redesign 4</p>
-                                <h2>Edit details in the sidebar</h2>
-                            </div>
-                            <div class="col-md-6">
-                                <p class="proj-body">To reduce modals on all action menus that interrupt the
-                                    user's flow, I introduced the sidebar. It effectively hides complicated
-                                    actions and creates a consistent place to edit global nodes.</p>
-                            </div>
-                        </div>
-                        <video muted autoplay loop>
-                            <source src="../img/microsoft/microsoft-design4.mp4">
-                            Sorry, your browser does not support the video tag.
-                        </video>
-                    </div>
-                </div>
-
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
                         <h1>Impact</h1>
@@ -364,46 +431,44 @@
                         </figure>
                     </div>
                 </div>
-
                 <div class="row space-md">
                     <div class="col-md-8 ml-auto mr-auto">
                         <h1 id="s6" class="section">Takeaways</h1>
                         <p class="proj-body">I grew tremendously as a designer, communicator, and
                             team player during this internship. Some key lessons include:</p>
-                        <h4 class="space-top">1. Presentation and documentation</h4>
-                        <p class="proj-body">While I was only collaborating with one other engineer, it was crucial for
-                            me to ask questions concisely to make sure my design choices were clear because we mostly
-                            worked remotely. Since this was a major redesign, I saw the necessity to write a PRD so a new designer can easily pick up where I finished. </p>
-                        <h4 class="space-top">2. Catching edge cases</h4>
-                        <p class="proj-body"> I approached problems with a user-centric focus while the engineers
-                            came from an implementation perspective, which was intriguing because we caught different edge cases due to our differing viewpoints. </p>
+                        <h4 class="space-top">1. Accessibility</h4>
+                        <p class="proj-body"> Drag and drop suggests that the user must be able to use a mouse and
+                            visually perceive draggable elements and drop zones. To make it accessible, the senior
+                            engineer and I discussed a list of requirements- namely, we must make 1) all draggable
+                            elements keyboard focusable 2) add event handlers for grabbing, moving, and dropping
+                            elements 3) add text that is only visible to the screen reader to guide the grab/move/drop
+                            process. </p>
+                        <h4 class="space-top">2. Presentation and documentation</h4>
+                        <p class="proj-body">While I was only collaborating with one other engineer, I needed to ask
+                            questions concisely to make sure my design choices were clear because we mostly
+                            worked remotely. Since this was a major redesign, I saw the necessity to write a PRD so a
+                            new designer can easily pick up where I finished. </p>
                         <h4 class="space-top">3. Getting feedback early</h4>
-                        <p class="proj-body"> Demonstrating the functionality through prototypes better represented the user
-                            flows I was envisioning, which made the critique process easier. I also seeked out designers
-                            on other teams to analyze the new user's experience to create informed and guided interactions.
+                        <p class="proj-body"> Demonstrating the functionality through prototypes better represented the
+                            user
+                            flows I was envisioning, which made the critique process easier. I also sought out designers
+                            on other teams to analyze the new user's experience to create informed and guided
+                            interactions.
                         </p>
                     </div>
                 </div>
-
 
                 <div class="row space-md">
                     <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s7" class="section">More Highlights</h1>
+                        <h1>More Highlights</h1>
                         <h1 class="display-3 space-bottom">Mixed Reality</h1>
-
                         <p class="proj-body"> Other than the Bot Portal project, I also developed UX solutions in
                             <strong>Mixed
-                                Reality</strong>. I tried on HoloLens for the first time and even have my own avatar
+                                Reality</strong>. I tried on HoloLens for the first time and even have my avatar
                             made in MR 😂
-                        </p>
-                        <p class="proj-body"> Thanks for reading about my experience! If you are interested in chatting
-                            more about my work, I would
-                            love to hear
-                            from you :))
                         </p>
                     </div>
                 </div>
-
                 <div class="row space-bottom">
                     <div class="col-md-6">
                         <figure> <img src="../img/microsoft/microsoft-mr1.jpg" alt="Mixed Reality 1" class="img-fluid">
@@ -418,20 +483,26 @@
                         <p class="proj-caption">My (very ugly) avatar in Mixed Reality</p>
                     </div>
                 </div>
-
+                <figure> <img src="../img/microsoft/microsoft-reflection.jpg" alt="Microsoft Reflection"
+                        class="img-fluid space-bottom">
+                </figure>
+                <div class="row space-md">
+                    <div class="col-lg-8 ml-auto mr-auto">
+                        <p class="proj-body"> Thanks for reading about my experience! If you are interested in chatting
+                            more about my work, I would
+                            love to hear
+                            from you :))
+                        </p>
+                    </div>
+                </div>
                 <div class="space-bottom-lg">
-                    <!-- <a href="../proj/microsoft.html">
-                        <h3 class="text-next pull-left">← Microsoft: UX Internship</h3>
-                    </a> -->
                     <a href="../proj/feedme.html">
                         <h3 class="text-next pull-right">Feed Me: Mobile UI/UX →</h3>
                     </a>
                 </div>
-
             </div>
         </div>
     </div>
-
     <!-- Footer -->
     <footer class="container py-5">
         <div class="row">
@@ -461,5 +532,4 @@
         crossorigin="anonymous"></script>
     <script src="../js/custom.js"></script>
 </body>
-
 </html>
