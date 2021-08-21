@@ -42,15 +42,13 @@ function sidebar() {
                 anchor_offset = $('#s' + i).offset().top - 200;
 
                 if ($(window).scrollTop() > anchor_offset) {
-                    $('.highlight').removeClass('highlight');
-                    $('#a' + i).addClass('highlight');
+                    $('.nav-highlight').removeClass('nav-highlight');
+                    $('#a' + i).addClass('nav-highlight');
                 }
             }
         })
     };
 }
-
-
 
 /** Fade In */
 /** ===================== */
