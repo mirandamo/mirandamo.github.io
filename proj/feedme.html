@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -12,6 +13,7 @@
     <script src="https://kit.fontawesome.com/67f90579cc.js" crossorigin="anonymous"></script>
     <link href="../css/style.css" rel="stylesheet">
 </head>
+
 <body>
     <svg id="fader"></svg>
     <div class="container">
@@ -22,7 +24,7 @@
                     class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html">Work</a>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html#portfolio">Work</a>
                     </li>
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../proj/sandbox.html">Fun</a>
                     </li>
@@ -44,24 +46,25 @@
             <div class="col-lg-10 ml-auto col-sm-12">
                 <div class="space-md">
                     <div class="headline-content">
-                        <h1 class="headline-title display-3">Feed Me</h1>
-                        <h1 class="display-3">Selling and donating excess cafeteria credits</h1>
+                        <h1>Feed Me</h1>
+                        <h1 class="subtitle">Selling and donating excess cafeteria credits</h1>
                     </div>
                     <div class="row d-flex align-content-center space-top proj-body">
                         <div class="col-md-3">
                             <div class="small-text">Role</div>
-                            <p>Product Designer<br>Front-End Engineer</p>
+                            <p>Product Designer<br>Front-end Engineer</p>
                         </div>
                         <div class="col-md-3">
-                            <div class="small-text">Duration</div>
-                            <p>November 2019 - Ongoing</p>
+                            <div class="small-text">Timeline</div>
+                            <p>Nov 2019 - Ongoing</p>
                         </div>
                         <div class="col-md-3">
                             <div class="small-text">Team</div>
                             <p><a href="https://www.linkedin.com/in/brandonqlee/" class="proj-link"
                                     target="_blank">Brandon
-                                    Lee</a>, <a href="https://www.linkedin.com/in/erica-li-30aa92177/" class="proj-link"
-                                    target="_blank">Erica Li</a> (Back-end Engineers)</p>
+                                    Lee</a> (Full-stack Engineer), <a
+                                    href="https://www.linkedin.com/in/erica-li-30aa92177/" class="proj-link"
+                                    target="_blank">Erica Li</a> (PM and Back-end Engineer)</p>
                         </div>
                         <div class="col-md-3">
                             <div class="small-text">Skills</div>
@@ -71,365 +74,595 @@
                         </div>
                     </div>
                 </div>
-                <figure> <img src="../img/thumbnail/feedme.jpg" alt="Feed Me Cover" class="img-fluid space-bottom">
+                <figure> <img src="../img/feedme/feedme-demo2.jpg" alt="Feed Me Cover" class="img-fluid space-bottom">
                 </figure>
-                <div class="row space-lg">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <h4>Challenge</h4>
-                                <p class="proj-body"> Helping college students profit from excess meal credits while
-                                    creating societal impact. </p>
-                            </div>
-                            <div class="col-md-6">
-                                <h4>Outcome</h4>
-                                <p class="proj-body">A mobile app that connects students with extra meal credits to
-                                    those who want cheaper meals.
-                                    <a class="proj-link" onclick="scrollSmoothTo('s6')">Jump to the final designs!</a>
-                                </p>
-                            </div>
-                        </div>
-                        <h4>Impact</h4>
-                        <div class="space-bottom-sm"></div>
-                        <figure> <img src="../img/feedme/feedme-impact.jpg" alt="Feed Me Impact" class="img-fluid">
-                        </figure>
-                    </div>
-                </div>
-                <hr>
                 <div class="row justify-content-start space-lg">
-                    <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="col-lg-8 mx-auto">
                         <h1 id="s1" class="section">Overview</h1>
-                        <p class="proj-body"> At Brown University, both freshmen and sophomores are required to buy a
-                            meal plan,
-                            which has an excess of meal credits. Therefore, we want to connect upperclassmen looking for
-                            cheap meals with underclassmen who can't finish their credits. </p>
-                        <p class="proj-body">We began this project at HackPrinceton2019. I was responsible for research,
-                            design, and front-end development (HTML/CSS/JS, then integrated with Flask back-end).
-                            Afterward, I redesigned Feed Me for usability improvements.
-                        <p class="proj-dvb"><a href="https://feed-me-brown.herokuapp.com/" class="proj-link"
-                                target="_blank"><i class="fas fa-mobile-alt"></i>&nbsp; &nbsp; Check out our 1.0
-                                deployed web app</a></p>
-                        <p class="proj-dvb"><a href="https://github.com/mirandamo/feed-me-brown" class="proj-link"
-                                target="_blank"><i class="fab fab fa-github"></i>&nbsp; &nbsp; Check out our
-                                Github Repository</a></p>
+                        <p class="proj-body"> Many universities require underclassmen to buy meal credits that can only
+                            be used for on-campus dining. Most students cannot finish them before they expire, wasting
+                            thousands of dollars. I had around 200 meal credits leftover in my freshman year,
+                            <strong>losing ~$2000</strong>.
+                        </p>
+                        <p class="proj-body"> On the other hand, upperclassmen who live off-campus find on-campus dining
+                            convenient, but too expensive. Therefore,
+                            we saw an opportunity to help students profit from the supply of on-campus meal credits and
+                            the demand of off-campus students.
+                        </p>
+                        <p class="proj-body">We began this project at HackPrinceton2019, a 36-hours hackathon, where I
+                            acted as the sole product designer and front-end engineer. After the
+                            hackathon, I redesigned the interface to improve usability.</p>
+                        <a onclick="scrollSmoothTo('s5')"><button class="proj-btn">Jump to the final
+                                designs!</button></a>
+                        <div class="space-bottom"></div>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/feedme-solution.jpg" alt="Feed Me Solution"
+                <figure> <img src="../img/feedme/feedme-problem.jpg" alt="Feed Me Problem"
                         class="img-fluid space-bottom">
                 </figure>
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s2" class="section">Problem</h1>
-                        <p class="proj-body"> How do we <strong>connect</strong> students with excess meal credits to
-                            those who need them, while <strong>incentivizing
-                                them to reach out to one another</strong>?
-                        </p>
+                    <div class="col-lg-8 mx-auto">
+                        <div class="row">
+                            <div class="col-md-3 mr-3">
+                                <h2 id="s2" class="section">Problem</h2>
+                            </div>
+                            <div class="col proj-body">On-campus students have a surplus of meal credits, while
+                                off-campus students have a demand for on-campus dining due to its convenience but find
+                                it too expensive.
+                            </div>
+                        </div>
+                        <div class="row space-md">
+                            <div class="col-md-3 mr-3">
+                                <h2>Objective</h2>
+                            </div>
+                            <div class="col proj-body">How can we connect students with excess meal credits to other
+                                students who want convenient and cheap on-campus meals?
+                            </div>
+                        </div>
+                        <div class="row space-bottom">
+                            <div class="col-md-3 mr-3">
+                                <h2>Outcome</h2>
+                            </div>
+                            <div class="col">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <h2><i class="fas fa-user icon-sm"></i>6000+</h2>
+                                        <p class="small-text">potential users</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h2><i class="fas fa-comment-dots icon-sm"></i>10</h2>
+                                        <p class="small-text">interviews</p>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <h2><i class="fas fa-list-ul icon-sm"></i>12</h2>
+                                        <p class="small-text">user tests</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+                <figure> <img src="../img/feedme/feedme-demo3.jpg" alt="Feed Me Proposal"
+                        class="img-fluid space-bottom">
+                </figure>
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="col-lg-8 mx-auto">
                         <h1 id="s3" class="section">Research</h1>
-                        <p class="proj-body"> To set the project off by defining the problem space, I collected data
-                            from <strong>20+ recent articles</strong> and conducted <strong>10+ semi-structured
-                                interviews</strong> with my friends (age 18-22) over messenger (as well as some Q&As
-                            with other hackers).
-                        </p>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/feedme-research.jpg" alt="Research" class="img-fluid space-bottom">
-                </figure>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Personas</h2>
-                        <p class="proj-body">From my research and interviews, I synthesized 2 personas that represent
-                            our user group. This helps us better <strong>visualize their frustrations</strong> and
-                            ideate solutions.
-                        </p>
-                    </div>
-                </div>
-                <figure> <img src="../img/feedme/feedme-persona.jpg" alt="Personas" class="img-fluid space-bottom">
-                </figure>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Pain Points</h2>
-                        <ol class="proj-body">
-                            <li>People off-meal plan think both the meal plan and takeout options are too
-                                <strong>expensive</strong> for college students.
-                            </li>
-                            <li>Upperclassmen don't have time to cook and miss the <strong>convenience</strong> of
-                                cafeteria food.
-                            </li>
-                            <li>Freshmen and sophomores wish they can <strong>get their money back</strong> for leftover
-                                credits.
-                            </li>
-                            <li>Underclassmen who don't have upperclassmen friends <strong>don't know who needs
-                                    credits</strong>. </li>
-                        </ol>
-                        <h2 class="space-top">Ethics</h2>
-                        <p class="proj-body">Since our app deals directly with users' money, we want them to
-                            <strong>feel safe</strong> when using Feed Me. Therefore, we brainstormed solutions to
-                            ensure <strong>user privacy</strong> and <strong>security</strong> that is within our
-                            technical capabilities.
-                        </p>
-                    </div>
-                </div>
-                <figure> <img src="../img/feedme/feedme-ethics.jpg" alt="Ethics" class="img-fluid space-bottom">
-                </figure>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Not everything is about money.</h2>
-                        <p class="proj-body">Beyond incentivizing students with monetary rewards, we want to empower
-                            them to help those who are food insecure at school and in the greater Rhode Island
-                            community. Thus, I
-                            proposed that Givers can provide <strong>free meals for less financially privileged
-                                students</strong>.
-                            Moreover, we decided to automatically <strong>donate $2 for every $5</strong> to RI food
-                            pantries.
-                        </p>
-                    </div>
-                </div>
-                <div class="row space-md bg-grey">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s4" class="section">Project Goals</h1>
-                        <ol class="proj-body pb-0">
-                            <li>Create a <strong>safe and easy</strong> way to share and claim meals
-                            </li>
-                            <li>Incentivize Givers to share through <strong>monetary reward and social impact</strong>
-                            </li>
-                            <li><strong>Support students</strong> who face financial concerns and food insecurity</li>
-                            <li><strong>Positively impact</strong> the greater local community</li>
-                        </ol>
-                    </div>
-                </div>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 class="space-top">Solution</h1>
-                        <p class="proj-body">Consequently, Feed Me allows Buyers to purchase a
-                            meal credit from a Giver for a default $5. This is a lot less than $13, the average cost of
-                            a meal at an inexpensive restaurant in Rhode Island (<a
-                                href="https://www.numbeo.com/cost-of-living/in/Providence" target="_blank"><span
-                                    class="proj-link">Numbeo</span></a>). For each meal, the Giver <strong>earns $3 and
-                                donates
-                                $2</strong> to the Rhode Island Community Food Pantry. Givers can also provide a
-                            <strong>free
-                                meal for less financially privileged students</strong>.
-                        </p>
-                    </div>
-                </div>
-                <figure> <img src="../img/feedme/feedme-proposal.jpg" alt="Persona 1" class="img-fluid space-bottom">
-                </figure>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s5" class="section">Ideation</h1>
-                        <h2 class="space-top">Competitive Analysis</h2>
-                        <p class="proj-body"> We compared Feed Me to similar initiatives and the main differences we
-                            noticed were:
-                        </p>
-                        <ul class="proj-body">
-                            <li><strong>Business Model</strong>: Dependent on student's altruism to donate free meals
-                                vs. partial financial reward
-                            </li>
-                            <li><strong>Student Interaction</strong>: Donate extra credits to a fund vs. meeting the
-                                student you are helping
-                            </li>
-                            <li><strong>Social Impact</strong>: Programs that train students for social entrepreneurship
-                                vs. direct donations to charity
-                            </li>
-                        </ul>
-                        <figure> <img src="../img/feedme/feedme-comp.jpg" alt="Competition"
-                                class="img-fluid space-bottom">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>User Flow</h2>
-                        <p class="proj-body">Keeping the product requirements in mind, I constructed a basic flow of
-                            sharing and claiming a meal. This helps us see how the user navigates the web app based on
-                            user goals. </p>
-                        <figure> <img src="../img/feedme/userflow.jpg" alt="User Flow" class="img-fluid space-bottom">
-                        </figure>
-                    </div>
-                </div>
-
-                <div class="row space-top">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h2>Wireframing and Testing</h2>
-                    </div>
-                </div>
-                <div class="row space-top">
-                    <div class="col-md-6">
-                        <figure> <img src="../img/feedme/feed_wire.jpg" alt="Lofi Feeder"
-                                class="img-fluid space-bottom">
-                        </figure>
-                    </div>
-                    <div class="col-md-6">
-                        <figure> <img src="../img/feedme/eat_wire.jpg" alt="Lofi Eater" class="img-fluid space-bottom">
+                <div class="row" style="background-color: #f9f9f9;">
+                    <div class="col-lg-8 mx-auto">
+                        <figure> <img src="../img/feedme/feedme-research.jpg" alt="Research" class="img-fluid">
                         </figure>
                     </div>
                 </div>
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Initial Design</h1>
-                        <p class="proj-body">After several rounds of wireframe critiques, I moved on to mocking up the
-                            high-fidelity flow of our <strong>prototype 1.0</strong>. The motivation behind the visual
-                            design was to represent the students' collaboration with a warm gradient and associate the
-                            app
-                            with an appetizing feeling.
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="space-top">Interviews</h2>
+                        <p class="proj-body">With only 36 hours, I conducted online research to understand the
+                            current problem space. We also interviewed <strong>10 upperclassmen</strong> who
+                            experienced
+                            both the on and off meal plan lifestyle, two of which also worked as dining service
+                            workers.
                         </p>
+                        <div class="row">
+                            <div class="col-md-6 mt-5">
+                                <h4>💻 Existing paradigm</h4>
+                                <p class="proj-body p-0">Facebook groups exist for students to share free meal
+                                    credits.
+                                    However, posting in groups frequently is a don't of social media etiquette, so
+                                    few
+                                    people use this platform.</p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h4>🧑‍🍳 Dining service workers</h4>
+                                <p class="proj-body p-0">They noticed that students will buy more food than they can
+                                    eat
+                                    to get rid of credits. Most of the food is barely eaten and thrown away. </p>
+                            </div>
+                            <span class="w-100"></span>
+                            <div class="col-md-6 mt-5">
+                                <h4>👦🍗 On meal plan students</h4>
+                                <p class="proj-body p-0">They feel guilty when they forfeit credits and waste money.
+                                    Many are willing to give out free meals so that the university doesn't "take
+                                    their
+                                    money, " but they don't know who to give it to.
+                                </p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h4>👩‍🦱❌🍗 Off meal plan students</h4>
+                                <p class="proj-body p-0">They miss the convenience of campus dining because
+                                    cafeterias
+                                    are close to libraries, where students spend most of their time. However, they
+                                    find
+                                    meal credits too expensive to be worth the convenience.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/feedme-old.jpg" alt="Old Design" class="img-fluid space-bottom">
-                </figure>
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Redesign</h1>
-                        <p class="proj-body">However, Feed Me was done in a 3-day time crunch, so I
-                            took the initiative to redesign its experience and branding. In the new design, when a meal
-                            is claimed, the interface transitions from cool to warm colors to represent the
-                            growing <strong>warmth of eating and joy in helping others</strong>. I also focused on
-                            constructing a <strong>clear navigation</strong> and <strong>visual hierarchy</strong>.
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Competitive Analysis</h2>
+                        <p class="proj-body">We analyzed the drawbacks of apps with similar meal-sharing initiatives,
+                            which
+                            helped us design Feed Me to <strong>fulfill our competitor's limitations</strong>.
                         </p>
+                        <figure> <img src="../img/feedme/feedme-comp.jpg" alt="Competitor" class="img-fluid">
+                        </figure>
+                        <div class="row space-bottom">
+                            <div class="col-md-6 mt-5">
+                                <h4>🍬 Lack of incentive</h4>
+                                <p class="proj-body p-0">Most apps rely on students' altruism to donate extra
+                                    credits.
+                                </p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h4 class="">🧍🧍 Need for workers</h4>
+                                <p class="proj-body p-0">Some initiatives require workers to hand out vouchers
+                                    converted from donated credits.</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <figure> <img src="../img/feedme/feedme-new.jpg" alt="New Design" class="img-fluid space-bottom">
-                </figure>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h1>Pain Points</h1>
+                        <p class="proj-body">Through our brief research, we synthesized the following problems to
+                            address:
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 mt-5">
+                                <h4>💸 Wasted money</h4>
+                                <p class="proj-body p-0">On-campus students wish they can get their money back for
+                                    leftover credits.
+                                </p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h4>🗑 Food waste</h4>
+                                <p class="proj-body p-0">On-campus students would buy food that they don't need to
+                                    not waste credits.</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-6 my-5">
+                                <h4>🧍❌🧍 Lack of connection</h4>
+                                <p class="proj-body p-0">On-campus students don't know who to give their meal
+                                    credits to.</p>
+                            </div>
+                            <div class="col-md-6 my-5">
+                                <h4>💰 Expensive</h4>
+                                <p class="proj-body p-0">Off-campus students find on-campus dining too expensive
+                                    despite
+                                    its convenience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="row">
-                    <div class="col-lg-10 ml-auto mr-auto">
+                    <div class="col-lg-8 space-md mx-auto">
+                        <h1 id="s4" class="section">Project Goals</h1>
+                        <h3 class="text-regular my-5">How can we connect students with excess meal credits to other
+                            students who want convenient and cheap on-campus meals?</h3>
+                        <div class="row">
+                            <div class="col text-left bg-grey py-5 px-5 m-2">
+                                <div class="icon-lg">1️⃣</div>
+                                <h5 class="text-regular">Incentivize Givers to share by helping them earn money</h5>
+                            </div>
+                            <div class="col text-left bg-grey py-5 px-5 m-2">
+                                <div class="icon-lg">2️⃣</div>
+                                <h5 class="text-regular">Create a safe and easy way to share and claim meals</h5>
+                            </div>
+                            <div class="col text-left bg-grey py-5 px-5 m-2">
+                                <div class="icon-lg">3️⃣</div>
+                                <h5 class="text-regular">Sustain user engagement and activity throughout the year
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 id="s5" class="section">Final Designs</h1>
+                        <p class="proj-body"> Feed Me's was revamped after the hackathon. <a
+                                onclick="scrollSmoothTo('s6')" class="proj-link">Jump to the process section</a> to read
+                            my decision processes!
+                        </p>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Design 1</p>
+                        <h1>Quick Sharing</h1>
+                        <p class="proj-body">Only 2 clicks to share a meal! When the Buyer meets up with them to get
+                            credited into the dining hall, they can confirm the
+                            meal.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/feedme-design-share.mp4" type="video/mp4">
+                                Sorry, your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Design 2</p>
+                        <h1>Easy Claiming</h1>
+                        <p class="proj-body">Just 2 clicks to claim a meal. Buyers can call or text the Giver when
+                            they arrive at the dining hall.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/feedme-design-claim.mp4" type="video/mp4">
+                                Sorry, your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Design 3</p>
+                        <h1>Secure Payments</h1>
+                        <p class="proj-body">Users can pay with their
+                            existing school currency Bear Bucks. No bank cards are required!
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/feedme-design-payment.mp4" type="video/mp4">
+                                Sorry, your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Design 4</p>
+                        <h1>Customizable Prices</h1>
+                        <p class="proj-body">The Giver can decide on a credit's price, ranging from $0 to $5.
+                            Because there will be a surplus of credits at the end of the semester, Givers will lower
+                            prices to get rid of credits ASAP. Therefore, we encourage Givers to sell throughout the
+                            year to maximize their profits.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/feedme-design-custom.mp4" type="video/mp4">
+                                Sorry, your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex row space-md bg-grey mb-3">
+                    <div class="col-md-4 mt-auto mb-auto ml-auto">
+                        <p class="text-color-bold">Design 5</p>
+                        <h1>Profile</h1>
+                        <p class="proj-body">Every student can switch between being a Giver or Buyer. If a Giver runs
+                            out of credits, they can always buy it from their peers too.
+                        </p>
+                    </div>
+                    <div class="col-md-4 mx-auto">
+                        <div class="proj-phone-vid">
+                            <video muted autoplay loop>
+                                <source src="../img/feedme/feedme-design-profile.mp4" type="video/mp4">
+                                Sorry, your browser does not support the video tag.
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-9 mx-auto">
                         <figure> <img src="../img/feedme/feedme-brand.jpg" alt="Branding"
                                 class="img-fluid space-bottom">
                         </figure>
                     </div>
                 </div>
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1 id="s6" class="section">Final Designs</h1>
-                        <p class="proj-body"> After a long journey, Feed Me is revamped!
+                    <div class="col-lg-8 mx-auto">
+                        <h1 id="s6" class="section">Process</h1>
+                        <h2 class="space-top">Personas</h2>
+                        <p class="proj-body"> From the initial interviews, I identified two key student roles involved
+                            in
+                            the
+                            experience.
                         </p>
                     </div>
                 </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <p class="text-color-bold">Decision 1</p>
-                        <h1>Quick Sharing</h1>
-                        <p class="proj-body">Only 3 steps to share a meal. Givers can simply go about their lunch
-                            schedule until the Buyer calls them.
+
+                <figure> <img src="../img/feedme/feedme-persona.jpg" alt="Personas" class="img-fluid space-bottom">
+                </figure>
+
+                <div class="row space-top">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Wireframing and Testing</h2>
+                        <p class="proj-body">With the two users' goals in mind, I wireframed their user flow. These
+                            low-fidelity wireframes went through critiques and user testing with the original
+                            interviewees on the concept of sharing and claiming a meal. Generally, the feedback was
+                            to
+                            <strong>make information more hierarchal and condensed.</strong>
                         </p>
                     </div>
-                    <div class="col-md-3 ml-auto mr-auto">
-                        <div class="proj-phone-vid">
-                            <video muted autoplay loop>
-                                <source src="../img/feedme/sharing.mp4" type="video/mp4">
-                                Sorry, your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
                 </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <p class="text-color-bold">Decision 2</p>
-                        <h1>Simple and Secure</h1>
-                        <p class="proj-body">Users are automatically registered with their Brown email addresses and can
-                            pay with their Bear Bucks. No bank cards are required!
-                        </p>
-                    </div>
-                    <div class="col-md-3 ml-auto mr-auto">
-                        <div class="proj-phone-vid">
-                            <video muted autoplay loop>
-                                <source src="../img/feedme/secure.mp4" type="video/mp4">
-                                Sorry, your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <p class="text-color-bold">Decision 3</p>
-                        <h1>Making a social impact</h1>
-                        <p class="proj-body">For every $5 meal bought, the Feeder earns $3 and donates $2 to the RI
-                            Community Food Pantry. Win-win for the student and the local community.
-                        </p>
-                    </div>
-                    <div class="col-md-3 ml-auto mr-auto">
-                        <div class="proj-phone-vid">
-                            <video muted autoplay loop>
-                                <source src="../img/feedme/donation.mp4" type="video/mp4">
-                                Sorry, your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex row space-md bg-grey mb-3">
-                    <div class="col-md-4 mt-auto mb-auto ml-auto">
-                        <p class="text-color-bold">Decision 4</p>
-                        <h1>All-inclusive</h1>
-                        <p class="proj-body">The Giver can choose to provide a free meal for less financially privileged
-                            students. The
-                            meal’s full $5 cost will be donated to charity if bought by a regular student. Win-win-win
-                            for the student, RI residents, and the school community!
-                        </p>
-                    </div>
-                    <div class="col-md-3 ml-auto mr-auto">
-                        <div class="proj-phone-vid">
-                            <video muted autoplay loop>
-                                <source src="../img/feedme/lowincome.mp4" type="video/mp4">
-                                Sorry, your browser does not support the video tag.
-                            </video>
-                        </div>
-                    </div>
-                </div>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Try out the final prototype!</h1>
-                    </div>
-                </div>
-                <div class="row space-bottom">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <div class="iframe-container">
-                            <iframe style="border: none;"
-                                src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FDmbXrdsSAVlslxZOwr7gxN%2FFeed-Me%3Fscaling%3Dcontain%26node-id%3D0%253A771"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
-                        <h1>Impact</h1>
-                        <p class="proj-body">Despite facing many technical challenges, my teammates and I felt a great
-                            sense
-                            of pride and accomplishment in our ability to create a program that people could use in only
-                            three days.</p>
-                        <figure> <img src="../img/feedme/feedme-impact.jpg" alt="Feed Me Impact"
-                                class="img-fluid space-bottom">
+                <div class="row space-top">
+                    <div class="col-md-6">
+                        <h4>Giver's Journey</h4>
+                        <figure> <img src="../img/feedme/feed_wire.jpg" alt="Lofi Giver"
+                                class="img-fluid space-bottom proj-border">
                         </figure>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Buyer's Journey</h4>
+                        <figure> <img src="../img/feedme/eat_wire.jpg" alt="Lofi Buyer"
+                                class="img-fluid space-bottom proj-border">
+                        </figure>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h1>Iteration 1</h1>
+                        <p class="proj-body">With only 24 hours left in the hackathon, I moved on to creating
+                            high-fidelity screens. Our main feature: <strong>Givers can sell a meal for $5</strong>,
+                            which is a lot less
+                            than $13, the average cost of a meal at an inexpensive restaurant in Rhode Island (<a
+                                href="https://www.numbeo.com/cost-of-living/in/Providence" class="proj-link"
+                                target="_blank">Numbeo</a>). Based on these designs, our
+                            web app prototype is powered
+                            by HTML/CSS/JavaScript front-end, Flask back-end, and PostgreSQL database. See our
+                            <a href="https://feed-me-brown.herokuapp.com/" class="proj-link" target="_blank">1.0
+                                deployed web app</a> and <a href="https://github.com/mirandamo/feed-me-brown"
+                                class="proj-link" target="_blank">Github</a>!
+                        </p>
+                        <p class="proj-body my-0 py-0">✅ Goal 1: Incentivize Givers to share by allowing them to
+                            earn
+                            money</p>
+                        <p class="proj-body my-0 py-0">❌ Goal 2: Create a safe and easy way to share and claim meals
+                        </p>
+                        <p class="proj-body my-0 py-0">❌ Goal 3: Sustain user engagement and activity</p>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/feedme-old.jpg" alt="Old Design" class="img-fluid space-bottom">
+                </figure>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Actionable Insights 1</h2>
+                        <p class="proj-body">
+                            However, I designed Feed Me in a 36-hours time crunch, so I continued to iterate on the
+                            designs to reach Goal 2 and 3. I presented my first iteration to three of the original
+                            interviewees and summarized their insights below:
+                        </p>
+                        <div class="row">
+                            <div class="col-md-6 mt-5">
+                                <h4>🔒 Not secure</h4>
+                                <p class="proj-body p-0">Users were confused as to whether everyone could register
+                                    or
+                                    only students from Brown.</p>
+                            </div>
+                            <div class="col-md-6 mt-5">
+                                <h4>👆 Unclear clickable elements</h4>
+                                <p class="proj-body p-0">The edit and message icons don't look clickable, and the
+                                    confirm button is less prominent than the share meal button.</p>
+                            </div>
+                            <div class="w-100"></div>
+                            <div class="col-md-6 mt-5">
+                                <h4>⬇ Lack of engagement</h4>
+                                <p class="proj-body p-0">Students forsee themselves only using the app towards the
+                                    end
+                                    of the semester, right before credits expire. </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
                 <div class="row space-md">
-                    <div class="col-lg-8 ml-auto mr-auto">
+                    <div class="col-lg-8 mx-auto">
+                        <h1>Iteration 2</h1>
+                        <p class="proj-body">To <strong>resolve the first two actionable insights and reach Goal
+                                2</strong>: create a safe and easy way to share and claim meals, I
+                            redesigned the UX and visual design to better define clickable elements and the
+                            hierarchy
+                            of
+                            information.
+                        </p>
+                        <p class="proj-body my-0 py-0">✅ Goal 1: Incentivize Givers to share by allowing them to
+                            earn
+                            money</p>
+                        <p class="proj-body my-0 py-0">✅ Goal 2: Create a safe and easy way to share and claim meals
+                        </p>
+                        <p class="proj-body my-0 py-0">❌ Goal 3: Sustain user engagement and activity</p>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/feedme-new.jpg" alt="New Design" class="img-fluid space-bottom">
+                </figure>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="row">
+                            <div class="col my-auto">
+                                <h4>Student Authentication</h4>
+                                <p class="proj-body">I also introduced a .edu
+                                    email verification process to ensure only students from the same schools are
+                                    connected.</p>
+                                <h5 class="mb-5"><mark class="bg-green p-3">✅ Successful feature</mark></h5>
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <div class="proj-phone-vid">
+                                    <video muted autoplay loop>
+                                        <source src="../img/feedme/feedme-security.mp4" type="video/mp4">
+                                        Sorry, your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Reaching Goal 3: Sustain User Engagement</h2>
+                        <p class="proj-body mb-5">To resolve the third actionable item of engagement, I
+                            brainstormed two
+                            new
+                            features that <strong>help students create positive impact as an incentive to use
+                                the
+                                app</strong> continuously:</p>
+                        <div class="row space-md">
+                            <div class="col">
+                                <h4>Free meals for low-income students</h4>
+                                <p class="proj-body">The user can sell a free meal to low-income students. If a
+                                    regular student claims it, they will still pay $5, but the proceeds will be donated
+                                    to a local food pantry.</p>
+                                <h5>👎 Sensitive identity</h5>
+                                <p class="proj-body">User feedback noted that low-income students wouldn't want
+                                    others
+                                    to know they are low-income and would feel conscious of their class status
+                                    by
+                                    receiving a free
+                                    meal.</p>
+                                <h5 class="mb-5"><mark class="bg-red p-3">❌ Unsuccessful feature</mark></h5>
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <div class="proj-phone-vid">
+                                    <video muted autoplay loop>
+                                        <source src="../img/feedme/feedme-lowincome.mp4" type="video/mp4">
+                                        Sorry, your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row space-md">
+                            <div class="col">
+                                <h4>Donate $2 for every $5</h4>
+                                <p class="proj-body">Each meal is still $5 for all Buyers, but the Giver will
+                                    automatically donate $2 to a local food pantry after each transaction.</p>
+                                <h5>👎 Not motivational</h5>
+                                <p class="proj-body">Even though there is still a $3 financial reward, users feel
+                                    that
+                                    the
+                                    automatic
+                                    donation is a tax rather than a voluntary contribution.</p>
+                                <h5 class="mb-5"><mark class="bg-red p-3">❌ Unsuccessful feature</mark></h5>
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <div class="proj-phone-vid">
+                                    <video muted autoplay loop>
+                                        <source src="../img/feedme/feedme-donation.mp4" type="video/mp4">
+                                        Sorry, your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>Actionable Insights 2</h2>
+                        <p class="proj-body">
+                            User feedback shows that the <strong>new features decreased
+                                engagement</strong>. In the end, I refocused on what's most important: users'
+                            pain
+                            points, and realized the hidden desire is that:
+                        </p>
+                        <h4>🗡 Students don't want the short end of the stick</h4>
+                        <p class="proj-body">
+                            Students will be willing to give out free credits because they don't want to the
+                            university to
+                            take advantage of their non-refundable credits.
+                        </p>
+                    </div>
+                </div>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
+                        <h1>Iteration 3</h1>
+                        <p class="proj-body">By focusing on people's priority to get rid of credits no matter
+                            what, I
+                            created a new feature that meets Goal 3. </p>
+                        <p class="proj-body my-0 py-0">✅ Goal 1: Incentivize Givers to share by allowing them to
+                            earn
+                            money</p>
+                        <p class="proj-body my-0 py-0">✅ Goal 2: Create a safe and easy way to share and claim
+                            meals</p>
+                        <p class="proj-body my-0 py-0">✅ Goal 3: Sustain user engagement and activity</p>
+                        <div class="row space-md">
+                            <div class="col">
+                                <h4>Customize the meal credit's price between $0 and $5</h4>
+                                <p class="proj-body">There is higher supply at the end of the semester because
+                                    students
+                                    are frantically getting rid of credits, lowering a credit's market price. Therefore,
+                                    students
+                                    will
+                                    be inclined to sell earlier in the semester to maximize their profits when
+                                    supply is
+                                    low (since students assume they can eat more than they actually can and not sell),
+                                    generating user activity throughout the year.</p>
+                                <h5>👍 Prices Set by Supply and Demand</h5>
+                                <p class="proj-body">Users agree this is a fair feature and will incentivize them to
+                                    sell throughout the year.</p>
+                                <h5 class="mb-5"><mark class="bg-green p-3">✅ Successful feature</mark></h5>
+                            </div>
+                            <div class="col-md-5 offset-md-1">
+                                <div class="proj-phone-vid">
+                                    <video muted autoplay loop>
+                                        <source src="../img/feedme/feedme-custom.mp4" type="video/mp4">
+                                        Sorry, your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <figure> <img src="../img/feedme/feedme-demo1.jpg" alt="Feed Me Proposal"
+                        class="img-fluid space-bottom">
+                </figure>
+                <div class="row space-md">
+                    <div class="col-lg-8 mx-auto">
                         <h1 id="s7" class="section">What's Next? </h1>
-                        <p class="proj-body"> We are currently working on prototype 2.0, aiming to launch our app in
-                            2021.
+                        <p class="proj-body"> We entered a competitive startup class with Feed Me!
                         </p>
-                        <p class="proj-body"> For future <strong>design improvements</strong>, I would look into:
-                        </p>
+                        <h3>Currently working on:</h3>
                         <ul class="proj-body">
-                            <li>Interactive onboarding experience
+                            <li>Onboarding experience
                             </li>
                             <li>Achievement badges to create more incentive and fun
                             </li>
                             <li>Testing, testing, and more testing!
                             </li>
                         </ul>
-                        <p class="proj-body"> I also learned a lot working in a team with SWEs:
-                        </p>
+                        <h3>Learnings:</h3>
                         <ul class="proj-body">
                             <li><strong>Set the scope of the project!</strong> Focus on the essential 1-2
                                 functionalities
-                                and use research to support why those are the priorities. Use a Product Requirement
+                                and use research to support why those are the priorities. Use a Product
+                                Requirement
                                 Description so everyone is on the same page.
                             </li>
+                            <li><strong>Get ready to get (almost) nowhere.</strong> I got stuck in designing
+                                features to encourage students to use the app throughout the semester. The solution
+                                is to refocus on users' pain points to come up with a suitable result. </li>
                             <li><strong>Holistic experience over aesthetics.</strong> All the time!
                             </li>
                         </ul>
@@ -463,10 +696,10 @@
                     coded with 💖 by Miranda Mo
                 </p>
             </div>
-            <div class="col-sm-4 social text-md-right">
-                <a href="mailto:miranda_mo@brown.edu" target="_blank" class="fa fa-envelope"></a>
-                <a href="https://github.com/mirandamo" target="_blank" class="fa fab fa-github"></a>
-                <a href="https://www.linkedin.com/in/mirandamo/" target="_blank" class="fa fa-linkedin"></a>
+            <div class="col-sm-4 text-md-right">
+                <a href="mailto:miranda_mo@brown.edu" target="_blank" class="fa fa-envelope social-icon"></a>
+                <a href="https://github.com/mirandamo" target="_blank" class="fa fab fa-github social-icon"></a>
+                <a href="https://www.linkedin.com/in/mirandamo/" target="_blank" class="fa fa-linkedin social-icon"></a>
             </div>
         </div>
     </footer>
@@ -480,4 +713,5 @@
         crossorigin="anonymous"></script>
     <script src="../js/custom.js"></script>
 </body>
+
 </html>
