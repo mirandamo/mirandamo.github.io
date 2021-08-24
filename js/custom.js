@@ -9,9 +9,26 @@ $(document).ready(function () {
     fadeInPage();
 });
 
+/** Navbar hidden on scroll-down*/
+/** ===================== */
+$('body').css('padding-top', $('.navbar').outerHeight() + 'px')
+var last_scroll_top = 0;
+win.on('scroll', function () {
+    scroll_top = $(this).scrollTop();
+    if (scroll_top < last_scroll_top) {
+        $('.smart-scroll').removeClass('scrolled-down').addClass('scrolled-up');
+    }
+    else {
+        $('.smart-scroll').removeClass('scrolled-up').addClass('scrolled-down');
+    }
+    last_scroll_top = scroll_top;
+});
+
+/** Jump to section on click sidebar anchors*/
+/** ===================== */
 function scrollSmoothTo(elementId) {
     var element = document.getElementById(elementId);
-    const offset = 50;
+    const offset = $('.navbar').outerHeight();
     const bodyRect = document.body.getBoundingClientRect().top;
     const elementRect = element.getBoundingClientRect().top;
     const elementPosition = elementRect - bodyRect;
@@ -42,8 +59,8 @@ function sidebar() {
                 anchor_offset = $('#s' + i).offset().top - 200;
 
                 if ($(window).scrollTop() > anchor_offset) {
-                    $('.nav-highlight').removeClass('nav-highlight');
-                    $('#a' + i).addClass('nav-highlight');
+                    $('.sidebar-highlight').removeClass('sidebar-highlight');
+                    $('#a' + i).addClass('sidebar-highlight');
                 }
             }
         })

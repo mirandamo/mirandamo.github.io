@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,17 +12,18 @@
     <link href="../css/style.css" rel="stylesheet">
     <link href="../css/simplelightbox.css" rel="stylesheet">
 </head>
+
 <body>
     <svg id="fader"></svg>
     <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white py-5">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white smart-scroll">
             <a class="navbar-brand js-scroll-trigger" href="../index.html">Miranda Mo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"> <span
                     class="navbar-toggler-icon"></span> </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html">Work</a>
+                    <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="../index.html#portfolio">Work</a>
                     </li>
                     <li class="nav-item"> <a class="nav-link js-scroll-trigger" href="">Fun</a>
                     </li>
@@ -34,18 +36,18 @@
             </div>
         </nav>
         <!-- Content -->
-        <header class="space-md" style="text-align: center;">
-                <div class="headline-big" >Fun stuff!</div>
-                <p>Animation, Code, and Illustrations!</p>
+        <header class="space-md text-center">
+            <div class="headline-big">Fun stuff!</div>
+            <p>Animation, Code, and Illustrations!</p>
         </header>
         <div id="sandbox" class="space-bottom">
-            <div id="proj-gallery" class="grid" style="margin-bottom: 2em;">
+            <div id="proj-gallery" class="grid mb-5">
                 <!-- Growing Pains -->
                 <div class="card">
-                    <div style="width: 100%;">
+                    <div class="w-100">
                         <div class="proj-video">
-                            <iframe src="https://player.vimeo.com/video/380112593" width="640"
-                                height="564" frameborder="0" allow="fullscreen" alt="Registration Flow"></iframe>
+                            <iframe src="https://player.vimeo.com/video/380112593" width="640" height="564"
+                                frameborder="0" allow="fullscreen" alt="Registration Flow"></iframe>
                         </div>
                     </div>
                     <div class="card-body">
@@ -59,13 +61,14 @@
                             <p class="card-text text-small">Dec 2019, with Allison Yeh, Monika Hedman, Chris Luke
                             </p>
                             <p class="card-text">This story is about two plants fighting over sunlight until one almost
-                                kills the other. I directed 50% of the animation and produced the soundtrack, featuring sounds from freesound.org and individual recordings.</p>
+                                kills the other. I directed 50% of the animation and produced the soundtrack, featuring
+                                sounds from freesound.org and individual recordings.</p>
                         </div>
                     </div>
                 </div>
                 <!-- 412 Food Rescue -->
                 <div class="card">
-                    <div style="width: 100%;">
+                    <div class="w-100">
                         <img class="card-img" src="../img/sandbox/foodrescue.jpg" alt="Card image">
                     </div>
                     <div class="card-body">
@@ -74,19 +77,22 @@
                             <span class="badge proj-label">Social Good</span>
                         </div>
                         <div class="space-bottom-sm">
-                            <h3 class="card-title">412 Food Rescue (<a href="../proj/foodrescue.html" class="proj-link" target="_blank">case study →</a>)</h3>
+                            <h3 class="card-title">412 Food Rescue (<a href="../proj/foodrescue.html"
+                                    class="proj-link">case study →</a>)</h3>
                             <p class="card-text text-small">Dec 2019 - Oct 2020, with Lucy Qu, Jenny He, Milanca Wang
                             </p>
-                            <p class="card-text">412 Food Rescue is an NGO that organizes volunteers to help deliver surplus food from restaurants to food pantries visited by people facing food insecurity. I led the user research and interaction design process.</p>
+                            <p class="card-text">412 Food Rescue is an NGO that organizes volunteers to help deliver
+                                surplus food from restaurants to food pantries visited by people facing food insecurity.
+                                I led the user research and interaction design process.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Vaccessible -->
                 <div class="card">
-                    <div style="width: 100%;">
-                        <video muted autoplay loop>
+                    <div class="w-100">
+                        <video muted autoplay loop playsinline>
                             <source src="../img/sandbox/vaccessible.mp4" type="video/mp4">
-                                Sorry, your browser does not support the video tag.
+                            Sorry, your browser does not support the video tag.
                         </video>
                     </div>
                     <div class="card-body">
@@ -95,16 +101,19 @@
                             <span class="badge proj-label">Product Design</span>
                         </div>
                         <div class="space-bottom-sm">
-                            <h3 class="card-title">Vaccessible (<a href="http://www.vaccessible.com/" class="proj-link" target="_blank">website →</a>)</h3>
+                            <h3 class="card-title">Vaccessible (<a href="http://www.vaccessible.com/" class="proj-link"
+                                    target="_blank">website →</a>)</h3>
                             <p class="card-text text-small">Spring 2021, with Erica Li, Brandon Lee, Charisa Shin
                             </p>
-                            <p class="card-text">Vaccessible empowers the Rhode Island community to easily find a vaccine. I spearheaded product design and front-end development in React as the leader of 4 engineers, reaching 1000+ users.</p>
+                            <p class="card-text">Vaccessible empowers the Rhode Island community to easily find a
+                                vaccine. I spearheaded product design and front-end development in React as the leader
+                                of 4 engineers, reaching 1000+ users.</p>
                         </div>
                     </div>
                 </div>
                 <!-- Dinder -->
                 <div class="card">
-                    <div style="width: 100%;">
+                    <div class="w-100">
                         <img class="card-img" src="../img/sandbox/dinder.gif" target="_blank" alt="Card image">
                     </div>
                     <div class="card-body">
@@ -316,4 +325,5 @@
             });
     </script>
 </body>
+
 </html>

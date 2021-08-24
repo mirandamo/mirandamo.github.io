@@ -1,8 +1,5 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-html {
-    scroll-behavior: smooth;
-}
 
 :root {
     --primary-color: #00b894;
@@ -11,6 +8,10 @@ html {
     --text-light: #CCCCCC;
     --transition-time: all 0.2s ease-in-out;
     --font-bold: 700;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -72,8 +73,8 @@ hr {
 }
 
 .container {
-    width: 95%;
-    max-width: 1500px;
+    max-width: 1920px;
+    padding: 0rem 5vw;
 }
 
 a, a:hover {
@@ -82,42 +83,46 @@ a, a:hover {
     cursor: pointer;
 }
 
-.space-top {
-    padding-top: 2em;
-}
-
-.space-bottom {
-    margin-bottom: 2em;
-}
-
-.space-top-lg {
-    padding-top: 10em;
+.space-sm {
+    margin: 3rem 0;
 }
 
 .space-md {
-    padding: 4em 0;
+    padding: 4rem 0;
 }
 
 .space-lg {
-    padding: 8em 0;
+    padding: 8rem 0;
 }
 
-.space-sm {
-    margin: 3em 0;
+.space-top {
+    padding-top: 2rem;
 }
 
-.space-bottom-sm {
-    margin-bottom: 1.1em;
+.space-bottom {
+    margin-bottom: 2rem;
+}
+
+.space-top-lg {
+    padding-top: 8rem;
 }
 
 .space-bottom-lg {
-    margin-bottom: 10em;
+    margin-bottom: 8rem;
+}
+
+.space-top-sm {
+    margin-bottom: 1rem;
+}
+
+.space-bottom-sm {
+    margin-bottom: 1rem;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    margin: .5rem 0;
     font-weight: var( --font-bold);
     line-height: 1.5em;
+    margin-bottom: 0.5rem;
 }
 
 .headline-big {
@@ -134,23 +139,41 @@ a, a:hover {
     font-weight: 300;
 }
 
-.corner-round {
-    border-radius: 50px;
-}
-
 /*/////////////////////
 Navigation
 ///////////////////////*/
 
+.navbar {
+    margin: 0 auto;
+    padding: 2rem 5vw;
+}
+
+.text-next {
+    color: var(--text-dark);
+}
+
 .nav-item {
     padding-left: 20px;
+}
+
+.social-icon {
+    padding: 10px 20px 10px 0;
+    font-size: 22px;
+    color: var(--text-dark);
+}
+
+.corner-round {
+    border-radius: 1em;
+}
+
+.navbar-brand, .nav-item, .text-next, .social-icon {
     -webkit-transition: var(--transition-time);
     -moz-transition: var(--transition-time);
     -o-transition: var(--transition-time);
     transition: var(--transition-time);
 }
 
-.nav-item:hover {
+.nav-item:hover, .navbar-brand:hover, .text-next:hover, .social-icon:hover {
     opacity: 0.6;
 }
 
@@ -160,12 +183,6 @@ Navigation
     font-size: 1em;
 }
 
-.anchor {
-    display: block;
-    color: var(--text-light);
-    line-height: 2;
-}
-
 .sidebar {
     position: fixed;
     padding: 5em 0;
@@ -173,22 +190,46 @@ Navigation
     color: var(--text-light);
 }
 
-.anchor:hover {
-    color: var(--primary-color);
-    ;
+.anchor {
+    display: block;
+    color: var(--text-light);
+    line-height: 2;
 }
 
-.nav-highlight {
+.anchor:hover, .sidebar-highlight {
     color: var(--primary-color);
 }
 
-.navbar {
-    padding: 0;
+.smart-scroll {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.scrolled-down {
+    transform: translateY(-100%);
+    transition: all 0.3s ease-in-out;
+}
+
+.scrolled-up {
+    transform: translateY(0);
+    transition: all 0.3s ease-in-out;
 }
 
 /*/////////////////////
 Home
 ///////////////////////*/
+
+.header-text {
+    width: 720px;
+    color: var(--text-grey);
+}
+
+.header-body {
+    line-height: 2em;
+}
 
 span-color {
     color: var(--primary-color);
@@ -197,23 +238,6 @@ span-color {
 .text-color-bold {
     color: var(--primary-color);
     font-weight: var(--font-bold);
-}
-
-.text-next {
-    display: block;
-    color: var(--text-dark);
-    -webkit-transition: var(--transition-time);
-    -moz-transition: var(--transition-time);
-    -o-transition: var(--transition-time);
-    transition: var(--transition-time);
-}
-
-.text-next:hover {
-    color: var(--primary-color);
-}
-
-.icon-size {
-    width: 40px;
 }
 
 .grid {
@@ -258,7 +282,7 @@ span-color {
 .card {
     border: none;
     box-shadow: 0 2px 40px 0 #E6E6E6;
-    background-color: #fff;
+    background-color: #FFFFFF;
     overflow: hidden;
     transition: box-shadow .3s ease-out, transform .3s ease-out, opacity .2s ease-out;
     transform: translateY(0);
@@ -276,28 +300,6 @@ span-color {
 
 .cover-img {
     width: 500px;
-}
-
-/*/////////////////////
-About
-///////////////////////*/
-
-.social-icon {
-    padding: 10px 20px 10px 0;
-    font-size: 22px;
-    color: var(--text-dark);
-}
-
-.social-icon:hover {
-    -webkit-transition: var(--transition-time);
-    -moz-transition: var(--transition-time);
-    -o-transition: var(--transition-time);
-    transition: var(--transition-time);
-    opacity: 0.6;
-}
-
-.progress-bg {
-    background-color: var(--primary-color);
 }
 
 /*/////////////////////
@@ -331,10 +333,6 @@ strong {
     background-color: #ffe8e8;
 }
 
-.loaded {
-    transition: var(--transition-time);
-}
-
 .proj-body {
     line-height: 2em;
     padding-bottom: 20px;
@@ -355,12 +353,6 @@ strong {
     color: var(--text-grey);
 }
 
-.proj-quote {
-    line-height: 1.8em;
-    color: var(--text-grey);
-    font-size: 24px;
-}
-
 .proj-body li {
     margin: 1.1em 0;
 }
@@ -374,9 +366,8 @@ strong {
     border-bottom: 1px solid var(--primary-color);
 }
 
-.proj-dvb {
-    font-weight: var(--font-bold) !important;
-    padding-bottom: 0.1em;
+video {
+    width: 100%;
 }
 
 .proj-phone {
@@ -387,8 +378,10 @@ strong {
     overflow: hidden;
 }
 
-video {
+.proj-video {
+    position: relative;
     width: 100%;
+    padding-top: 56.25%;
 }
 
 .proj-phone iframe, .proj-video iframe {
@@ -399,12 +392,6 @@ video {
     right: 0;
     width: 100%;
     height: 100%;
-}
-
-.proj-video {
-    position: relative;
-    width: 100%;
-    padding-top: 56.25%;
 }
 
 .iframe-container {
@@ -426,11 +413,6 @@ video {
     border: 2px solid #f2f2f2;
 }
 
-.header-text {
-    width: 720px;
-    color: var(--text-grey);
-}
-
 .proj-btn {
     background-color: var(--text-dark);
     border: none;
@@ -445,10 +427,6 @@ video {
 
 .proj-btn:hover {
     opacity: 0.8;
-}
-
-.icon-lg {
-    font-size: 2em;
 }
 
 .icon-sm {
