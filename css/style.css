@@ -166,15 +166,15 @@ Navigation
     border-radius: 1em;
 }
 
-.navbar-brand, .nav-item, .text-next, .social-icon {
+.navbar-brand, .nav-item, .text-next, .social-icon, .img-next {
     -webkit-transition: var(--transition-time);
     -moz-transition: var(--transition-time);
     -o-transition: var(--transition-time);
     transition: var(--transition-time);
 }
 
-.nav-item:hover, .navbar-brand:hover, .text-next:hover, .social-icon:hover {
-    opacity: 0.6;
+.nav-item:hover, .navbar-brand:hover, .text-next:hover, .social-icon:hover, .img-next:hover {
+    opacity: 0.7;
 }
 
 .navbar-light .navbar-nav .nav-link, .navbar-light .navbar-brand {
