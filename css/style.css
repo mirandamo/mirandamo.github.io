@@ -75,6 +75,7 @@ hr {
 .container {
     max-width: 1920px;
     padding: 0rem 5vw;
+    overflow: hidden;
 }
 
 a, a:hover {
